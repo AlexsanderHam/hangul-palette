@@ -23,12 +23,11 @@
       "clippingRetries": [],
       "colorLayers": {
         "colrVersion": 1,
-        "v0FallbackMatchesV1": true,
         "v0Glyphs": 11223,
         "v0LayerRecords": 64155,
-        "v1Glyphs": 11223,
-        "v1LayerRecords": 53161,
-        "v1LayerReferences": 64155
+        "v1Glyphs": 0,
+        "v1LayerRecords": 0,
+        "v1LayerReferences": 0
       },
       "compoundHolesPreserved": true,
       "decodedCoordinateTolerance": 0.0009765625,
@@ -36,7 +35,7 @@
       "defaultPaletteBlack": true,
       "encodedCOLRLayers": 64155,
       "fontGlyphs": 54862,
-      "fontSha256": "124ae96008d2233917f7d9a9aeae35297e2c9538997230431f5aaf55bd981a87",
+      "fontSha256": "4e25527a5d22754015f2cfb9b48c9b98712bb26215791099c6d0e465faa1e3dc",
       "maskExpansionFallbacks": [],
       "maskExpansionStrategies": {
         "normalized-stroke": 11223
@@ -128,12 +127,11 @@
       ],
       "colorLayers": {
         "colrVersion": 1,
-        "v0FallbackMatchesV1": true,
         "v0Glyphs": 11223,
         "v0LayerRecords": 64155,
-        "v1Glyphs": 11223,
-        "v1LayerRecords": 53144,
-        "v1LayerReferences": 64155
+        "v1Glyphs": 0,
+        "v1LayerRecords": 0,
+        "v1LayerReferences": 0
       },
       "compoundHolesPreserved": true,
       "decodedCoordinateTolerance": 0.0009765625,
@@ -141,7 +139,7 @@
       "defaultPaletteBlack": true,
       "encodedCOLRLayers": 64155,
       "fontGlyphs": 54948,
-      "fontSha256": "d5bd3ce0b702218d0747d5f1ff5609f5226b807645d7e552299676ebb94e1dde",
+      "fontSha256": "6dc43ed5824e0b640b78fdc1344081cf22b420a1e375aa5160a7ba72805a51b1",
       "maskExpansionFallbacks": [
         {
           "char": "뭫",
@@ -252,12 +250,11 @@
       ],
       "colorLayers": {
         "colrVersion": 1,
-        "v0FallbackMatchesV1": true,
         "v0Glyphs": 11223,
         "v0LayerRecords": 64155,
-        "v1Glyphs": 11223,
-        "v1LayerRecords": 53151,
-        "v1LayerReferences": 64155
+        "v1Glyphs": 0,
+        "v1LayerRecords": 0,
+        "v1LayerReferences": 0
       },
       "compoundHolesPreserved": true,
       "decodedCoordinateTolerance": 0.0009765625,
@@ -265,7 +262,7 @@
       "defaultPaletteBlack": true,
       "encodedCOLRLayers": 64155,
       "fontGlyphs": 54915,
-      "fontSha256": "3db9588a995ec04fbe99601213f6a10ec4ff2735b19ec24b2faa740dff74d03e",
+      "fontSha256": "03d36fa2e93522db8e62794802f92735fa919ccc0a8d711966ce7d6c421403b7",
       "maskExpansionFallbacks": [],
       "maskExpansionStrategies": {
         "normalized-stroke": 11223
@@ -329,12 +326,11 @@
       "clippingRetries": [],
       "colorLayers": {
         "colrVersion": 1,
-        "v0FallbackMatchesV1": true,
         "v0Glyphs": 11223,
         "v0LayerRecords": 64155,
-        "v1Glyphs": 11223,
-        "v1LayerRecords": 52547,
-        "v1LayerReferences": 64155
+        "v1Glyphs": 0,
+        "v1LayerRecords": 0,
+        "v1LayerReferences": 0
       },
       "compoundHolesPreserved": true,
       "decodedCoordinateTolerance": 0.0009765625,
@@ -342,7 +338,7 @@
       "defaultPaletteBlack": true,
       "encodedCOLRLayers": 64155,
       "fontGlyphs": 53152,
-      "fontSha256": "9477544b01c6a563703804f918001a6fae086537a642570bd3123b33859dd35a",
+      "fontSha256": "00f38819925cfd51572909663aeed2b90e01974d6522a6a0a4cc2136a3e70433",
       "maskExpansionFallbacks": [],
       "maskExpansionStrategies": {
         "normalized-stroke": 11223
@@ -405,12 +401,11 @@
       "clippingRetries": [],
       "colorLayers": {
         "colrVersion": 1,
-        "v0FallbackMatchesV1": true,
         "v0Glyphs": 11223,
         "v0LayerRecords": 64155,
-        "v1Glyphs": 11223,
-        "v1LayerRecords": 52895,
-        "v1LayerReferences": 64155
+        "v1Glyphs": 0,
+        "v1LayerRecords": 0,
+        "v1LayerReferences": 0
       },
       "compoundHolesPreserved": true,
       "decodedCoordinateTolerance": 0.0009765625,
@@ -418,7 +413,7 @@
       "defaultPaletteBlack": true,
       "encodedCOLRLayers": 64155,
       "fontGlyphs": 54050,
-      "fontSha256": "cc61f7fb03291c6b3d7750719ec6fedd1e85a70e406e86c52c31bda124de1567",
+      "fontSha256": "2e70abb59ee870217864d59ad2886fac8b59e59eb64eebfc6eb70d69c2f2894c",
       "maskExpansionFallbacks": [],
       "maskExpansionStrategies": {
         "normalized-stroke": 11223
@@ -518,12 +513,11 @@
       ],
       "colorLayers": {
         "colrVersion": 1,
-        "v0FallbackMatchesV1": true,
         "v0Glyphs": 11223,
         "v0LayerRecords": 64155,
-        "v1Glyphs": 11223,
-        "v1LayerRecords": 52948,
-        "v1LayerReferences": 64155
+        "v1Glyphs": 0,
+        "v1LayerRecords": 0,
+        "v1LayerReferences": 0
       },
       "compoundHolesPreserved": true,
       "decodedCoordinateTolerance": 0.0009765625,
@@ -531,7 +525,7 @@
       "defaultPaletteBlack": true,
       "encodedCOLRLayers": 64155,
       "fontGlyphs": 54574,
-      "fontSha256": "a5c78766d2da655574eb0343aa4ba331988ade63388cc0a5f7ee2f800d527019",
+      "fontSha256": "69446001127e824ccef152e4f3500a47fe88f341273a15d319087bad0de69b20",
       "maskExpansionFallbacks": [],
       "maskExpansionStrategies": {
         "normalized-stroke": 11223
@@ -621,12 +615,11 @@
       ],
       "colorLayers": {
         "colrVersion": 1,
-        "v0FallbackMatchesV1": true,
         "v0Glyphs": 11223,
         "v0LayerRecords": 64155,
-        "v1Glyphs": 11223,
-        "v1LayerRecords": 52700,
-        "v1LayerReferences": 64155
+        "v1Glyphs": 0,
+        "v1LayerRecords": 0,
+        "v1LayerReferences": 0
       },
       "compoundHolesPreserved": true,
       "decodedCoordinateTolerance": 0.0009765625,
@@ -634,7 +627,7 @@
       "defaultPaletteBlack": true,
       "encodedCOLRLayers": 64155,
       "fontGlyphs": 53934,
-      "fontSha256": "0838674b8209ce72ee3eac38bb78fb9bb5d1a062f69be33159e0b5e8e37ec5b3",
+      "fontSha256": "c1921dc46a1c4fce83c3586b6711798e1579b42b6c4908a92bdd5c19dab3f9e7",
       "maskExpansionFallbacks": [],
       "maskExpansionStrategies": {
         "normalized-stroke": 11223
@@ -719,12 +712,11 @@
       ],
       "colorLayers": {
         "colrVersion": 1,
-        "v0FallbackMatchesV1": true,
         "v0Glyphs": 11223,
         "v0LayerRecords": 64155,
-        "v1Glyphs": 11223,
-        "v1LayerRecords": 53126,
-        "v1LayerReferences": 64155
+        "v1Glyphs": 0,
+        "v1LayerRecords": 0,
+        "v1LayerReferences": 0
       },
       "compoundHolesPreserved": true,
       "decodedCoordinateTolerance": 0.0009765625,
@@ -732,7 +724,7 @@
       "defaultPaletteBlack": true,
       "encodedCOLRLayers": 64155,
       "fontGlyphs": 54882,
-      "fontSha256": "825a41a16dfb347cd6f3d405d56ef14088926f12de61ec6757ccc2daec6b21ec",
+      "fontSha256": "a1c3f2436834141474c4bce2dd5158f8efe6833fb1a80ff813345ae8f69b3822",
       "maskExpansionFallbacks": [],
       "maskExpansionStrategies": {
         "normalized-stroke": 11223
@@ -797,12 +789,11 @@
       "clippingRetries": [],
       "colorLayers": {
         "colrVersion": 1,
-        "v0FallbackMatchesV1": true,
         "v0Glyphs": 11223,
         "v0LayerRecords": 64155,
-        "v1Glyphs": 11223,
-        "v1LayerRecords": 51948,
-        "v1LayerReferences": 64155
+        "v1Glyphs": 0,
+        "v1LayerRecords": 0,
+        "v1LayerReferences": 0
       },
       "compoundHolesPreserved": true,
       "decodedCoordinateTolerance": 0.0009765625,
@@ -810,7 +801,7 @@
       "defaultPaletteBlack": true,
       "encodedCOLRLayers": 64155,
       "fontGlyphs": 50990,
-      "fontSha256": "fedef6f561561a798c5311439dafb267eed1e8d2288fe3e0f4feab0627bab545",
+      "fontSha256": "c78e8f4ea7a9bd87008dd5ff47d6fdc8f9cee8ea5a602eb4200c531dbbb3654a",
       "maskExpansionFallbacks": [],
       "maskExpansionStrategies": {
         "normalized-stroke": 11223

@@ -4,7 +4,7 @@
   "family": "Hangul Palette",
   "classificationFormat": "semantic-regions-v1",
   "fontVersion": "1.0.0",
-  "fontFormat": "WOFF2 / CFF / COLR v1 with v0 fallback / CPAL v0",
+  "fontFormat": "WOFF2 / CFF / COLR v1 container with v0 layers / CPAL v0",
   "complete": true,
   "project": {
     "projectId": "hangul-palette-baseline",
@@ -1111,48 +1111,48 @@
   },
   "files": {
     "fonts/hangul-palette-thin.woff2": {
-      "bytes": 2674484,
-      "sha256": "fedef6f561561a798c5311439dafb267eed1e8d2288fe3e0f4feab0627bab545"
+      "bytes": 2442420,
+      "sha256": "c78e8f4ea7a9bd87008dd5ff47d6fdc8f9cee8ea5a602eb4200c531dbbb3654a"
     },
     "fonts/hangul-palette-extra-light.woff2": {
-      "bytes": 2807172,
-      "sha256": "9477544b01c6a563703804f918001a6fae086537a642570bd3123b33859dd35a"
+      "bytes": 2563708,
+      "sha256": "00f38819925cfd51572909663aeed2b90e01974d6522a6a0a4cc2136a3e70433"
     },
     "fonts/hangul-palette-light.woff2": {
-      "bytes": 2913708,
-      "sha256": "cc61f7fb03291c6b3d7750719ec6fedd1e85a70e406e86c52c31bda124de1567"
+      "bytes": 2672364,
+      "sha256": "2e70abb59ee870217864d59ad2886fac8b59e59eb64eebfc6eb70d69c2f2894c"
     },
     "fonts/hangul-palette-regular.woff2": {
-      "bytes": 2954948,
-      "sha256": "0838674b8209ce72ee3eac38bb78fb9bb5d1a062f69be33159e0b5e8e37ec5b3"
+      "bytes": 2708492,
+      "sha256": "c1921dc46a1c4fce83c3586b6711798e1579b42b6c4908a92bdd5c19dab3f9e7"
     },
     "fonts/hangul-palette-medium.woff2": {
-      "bytes": 3196480,
-      "sha256": "a5c78766d2da655574eb0343aa4ba331988ade63388cc0a5f7ee2f800d527019"
+      "bytes": 2951076,
+      "sha256": "69446001127e824ccef152e4f3500a47fe88f341273a15d319087bad0de69b20"
     },
     "fonts/hangul-palette-semi-bold.woff2": {
-      "bytes": 3278068,
-      "sha256": "825a41a16dfb347cd6f3d405d56ef14088926f12de61ec6757ccc2daec6b21ec"
+      "bytes": 3031204,
+      "sha256": "a1c3f2436834141474c4bce2dd5158f8efe6833fb1a80ff813345ae8f69b3822"
     },
     "fonts/hangul-palette-bold.woff2": {
-      "bytes": 3354408,
-      "sha256": "d5bd3ce0b702218d0747d5f1ff5609f5226b807645d7e552299676ebb94e1dde"
+      "bytes": 3108232,
+      "sha256": "6dc43ed5824e0b640b78fdc1344081cf22b420a1e375aa5160a7ba72805a51b1"
     },
     "fonts/hangul-palette-extra-bold.woff2": {
-      "bytes": 3443564,
-      "sha256": "3db9588a995ec04fbe99601213f6a10ec4ff2735b19ec24b2faa740dff74d03e"
+      "bytes": 3196092,
+      "sha256": "03d36fa2e93522db8e62794802f92735fa919ccc0a8d711966ce7d6c421403b7"
     },
     "fonts/hangul-palette-black.woff2": {
-      "bytes": 3475344,
-      "sha256": "124ae96008d2233917f7d9a9aeae35297e2c9538997230431f5aaf55bd981a87"
+      "bytes": 3228524,
+      "sha256": "4e25527a5d22754015f2cfb9b48c9b98712bb26215791099c6d0e465faa1e3dc"
     },
     "css/hangul-palette.css": {
       "bytes": 4924,
       "sha256": "b43f615e5e0bd2221aac39cdef1c082b6ba18c1497fff6e5d1df468aca27673e"
     },
     "metadata/validation.json": {
-      "bytes": 27949,
-      "sha256": "1d2ac5fdca98b2a1068fe7c066a76c24490c0c23e21e5feaac4464f9f07f20cf"
+      "bytes": 27508,
+      "sha256": "892159310f84bcc736b34d7a2cc314f090847af094e40cb6ecc70982cb0a54c1"
     },
     "LICENSE": {
       "bytes": 4418,
@@ -1183,8 +1183,8 @@
     "studio": {
       "name": "hangul-palette-studio",
       "version": "1.0.0",
-      "revision": "503f1a64e3a3bbd242e2f6c9df59d61ab84a708c",
-      "sourceSha256": "ef8f81624a9114bed9de88fcbe3d628496122bfebc95274e98580ac621ae1bfd",
+      "revision": "8e52af21ef8892cf904933455616eff5bffd9af3",
+      "sourceSha256": "441176db294a55e5189c6ab82c4b25e935dd33b55c974964ed44b45c6c49aef4",
       "files": {
         "bin/extract.ts": "f0b7cf0b92b40f41cb0aea02473f568a75611d6d6eb4a4261f42ff6288bec1fd",
         "bin/release.ts": "70b5cdc5940d8790fe8a62838a83d8621491dc0666c050ae6355a16bb78df6ec",
@@ -1197,7 +1197,7 @@
         "src/font/compiler/contract.json": "8f3bdea69a52dc59bfdb8a5eca6b57011ba8fa21760c789350e03a5676105776",
         "src/font/compiler/export.py": "b99294bfd7312a46d79fb05c352431a4c8eefc14101b1aad25f5e23a9b5dcf4b",
         "src/font/compiler/official-sources.json": "2eb694ec8f5248c83b4e5d5d64c07cfae9c559acff8ed025e5dc2c8c1176f4e3",
-        "src/font/compiler/official.py": "7862b544c07a6dfdf8de9095ca4510eaa6dfcbad8673d06fe0439f48ce8a3a88",
+        "src/font/compiler/official.py": "1cf0161f541d2acaa2583f6c4a2ac9070f5fa069aee68389d481a1cc487f2b4f",
         "src/font/compiler/regions.py": "dc11295a125decffd0658d246771987ecc26c196a85990a6639fb6d46f4cc55d",
         "src/font/compiler/repackage.py": "5a3aa243b9aae3afb2e10be8a0e7f5d1808dece7e1f0c5c0124054a2e3e759bb",
         "src/font/compiler/requirements.txt": "0b711db01e986ada6cc3d4557fff0f62a3ffad601a53663cea604a2a748495ff",

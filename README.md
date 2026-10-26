@@ -8,7 +8,7 @@ A Hangul color webfont with customizable component and stroke colors, based on P
 - The official font's original glyph data, character mapping and metrics retained in each weight.
 - 11,172 modern Hangul syllables and 51 compatibility jamo with twenty color slots, controlled through CSS.
 - Latin letters, digits and punctuation use ordinary CSS text color.
-- WOFF2 with CFF outlines, COLR v1 paints, COLR v0 fallback layers for Safari, and CPAL v0.
+- One WOFF2 per weight, with CFF outlines, COLR v0 color layers in a COLR v1 container, and CPAL v0. All supported browsers use the same layer definitions.
 
 ## Usage
 
