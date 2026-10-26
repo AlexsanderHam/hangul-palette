@@ -21,13 +21,22 @@
       },
       "clippingGuardSha256": "7e700da9e3281396b8b0059eb22929c26c97d274f2672f0a68932f3835849925",
       "clippingRetries": [],
+      "colorLayers": {
+        "colrVersion": 1,
+        "v0FallbackMatchesV1": true,
+        "v0Glyphs": 11223,
+        "v0LayerRecords": 64155,
+        "v1Glyphs": 11223,
+        "v1LayerRecords": 53161,
+        "v1LayerReferences": 64155
+      },
       "compoundHolesPreserved": true,
       "decodedCoordinateTolerance": 0.0009765625,
       "decodedGeometryProof": "matching-cubic-topology-and-bounded-control-points",
       "defaultPaletteBlack": true,
       "encodedCOLRLayers": 64155,
       "fontGlyphs": 54862,
-      "fontSha256": "bb2c4318d36385d6e79603426b70323f2864dccd6a87b4470f3f5cd4b902bfc7",
+      "fontSha256": "124ae96008d2233917f7d9a9aeae35297e2c9538997230431f5aaf55bd981a87",
       "maskExpansionFallbacks": [],
       "maskExpansionStrategies": {
         "normalized-stroke": 11223
@@ -117,13 +126,22 @@
           "guardUnits": 3.125
         }
       ],
+      "colorLayers": {
+        "colrVersion": 1,
+        "v0FallbackMatchesV1": true,
+        "v0Glyphs": 11223,
+        "v0LayerRecords": 64155,
+        "v1Glyphs": 11223,
+        "v1LayerRecords": 53144,
+        "v1LayerReferences": 64155
+      },
       "compoundHolesPreserved": true,
       "decodedCoordinateTolerance": 0.0009765625,
       "decodedGeometryProof": "matching-cubic-topology-and-bounded-control-points",
       "defaultPaletteBlack": true,
       "encodedCOLRLayers": 64155,
       "fontGlyphs": 54948,
-      "fontSha256": "be35419932d01df921ed6ba0501e486131293b7d906ced2106d4ab17398f0cde",
+      "fontSha256": "d5bd3ce0b702218d0747d5f1ff5609f5226b807645d7e552299676ebb94e1dde",
       "maskExpansionFallbacks": [
         {
           "char": "뭫",
@@ -232,13 +250,22 @@
           "guardUnits": 3.125
         }
       ],
+      "colorLayers": {
+        "colrVersion": 1,
+        "v0FallbackMatchesV1": true,
+        "v0Glyphs": 11223,
+        "v0LayerRecords": 64155,
+        "v1Glyphs": 11223,
+        "v1LayerRecords": 53151,
+        "v1LayerReferences": 64155
+      },
       "compoundHolesPreserved": true,
       "decodedCoordinateTolerance": 0.0009765625,
       "decodedGeometryProof": "matching-cubic-topology-and-bounded-control-points",
       "defaultPaletteBlack": true,
       "encodedCOLRLayers": 64155,
       "fontGlyphs": 54915,
-      "fontSha256": "c13765d887cb7bdce106cd7c7ef998c741315e1069eca01b4418fc862fc64017",
+      "fontSha256": "3db9588a995ec04fbe99601213f6a10ec4ff2735b19ec24b2faa740dff74d03e",
       "maskExpansionFallbacks": [],
       "maskExpansionStrategies": {
         "normalized-stroke": 11223
@@ -300,13 +327,22 @@
       },
       "clippingGuardSha256": "7e700da9e3281396b8b0059eb22929c26c97d274f2672f0a68932f3835849925",
       "clippingRetries": [],
+      "colorLayers": {
+        "colrVersion": 1,
+        "v0FallbackMatchesV1": true,
+        "v0Glyphs": 11223,
+        "v0LayerRecords": 64155,
+        "v1Glyphs": 11223,
+        "v1LayerRecords": 52547,
+        "v1LayerReferences": 64155
+      },
       "compoundHolesPreserved": true,
       "decodedCoordinateTolerance": 0.0009765625,
       "decodedGeometryProof": "matching-cubic-topology-and-bounded-control-points",
       "defaultPaletteBlack": true,
       "encodedCOLRLayers": 64155,
       "fontGlyphs": 53152,
-      "fontSha256": "cb9bed230c15008b555a992a7d2aec1d31398278cb0c95605532dcc23a6aa014",
+      "fontSha256": "9477544b01c6a563703804f918001a6fae086537a642570bd3123b33859dd35a",
       "maskExpansionFallbacks": [],
       "maskExpansionStrategies": {
         "normalized-stroke": 11223
@@ -367,13 +403,22 @@
       },
       "clippingGuardSha256": "7e700da9e3281396b8b0059eb22929c26c97d274f2672f0a68932f3835849925",
       "clippingRetries": [],
+      "colorLayers": {
+        "colrVersion": 1,
+        "v0FallbackMatchesV1": true,
+        "v0Glyphs": 11223,
+        "v0LayerRecords": 64155,
+        "v1Glyphs": 11223,
+        "v1LayerRecords": 52895,
+        "v1LayerReferences": 64155
+      },
       "compoundHolesPreserved": true,
       "decodedCoordinateTolerance": 0.0009765625,
       "decodedGeometryProof": "matching-cubic-topology-and-bounded-control-points",
       "defaultPaletteBlack": true,
       "encodedCOLRLayers": 64155,
       "fontGlyphs": 54050,
-      "fontSha256": "6a6d53e368c186b0944444f357d9ef94126f5ff586ccb8ea0d3c6f7beb2cbb9f",
+      "fontSha256": "cc61f7fb03291c6b3d7750719ec6fedd1e85a70e406e86c52c31bda124de1567",
       "maskExpansionFallbacks": [],
       "maskExpansionStrategies": {
         "normalized-stroke": 11223
@@ -471,13 +516,22 @@
           "guardUnits": 3.125
         }
       ],
+      "colorLayers": {
+        "colrVersion": 1,
+        "v0FallbackMatchesV1": true,
+        "v0Glyphs": 11223,
+        "v0LayerRecords": 64155,
+        "v1Glyphs": 11223,
+        "v1LayerRecords": 52948,
+        "v1LayerReferences": 64155
+      },
       "compoundHolesPreserved": true,
       "decodedCoordinateTolerance": 0.0009765625,
       "decodedGeometryProof": "matching-cubic-topology-and-bounded-control-points",
       "defaultPaletteBlack": true,
       "encodedCOLRLayers": 64155,
       "fontGlyphs": 54574,
-      "fontSha256": "bb0b506420a544e1b700f327a778a18709aac422be0cdc307215ad8ff6c635fc",
+      "fontSha256": "a5c78766d2da655574eb0343aa4ba331988ade63388cc0a5f7ee2f800d527019",
       "maskExpansionFallbacks": [],
       "maskExpansionStrategies": {
         "normalized-stroke": 11223
@@ -565,13 +619,22 @@
           "guardUnits": 3.125
         }
       ],
+      "colorLayers": {
+        "colrVersion": 1,
+        "v0FallbackMatchesV1": true,
+        "v0Glyphs": 11223,
+        "v0LayerRecords": 64155,
+        "v1Glyphs": 11223,
+        "v1LayerRecords": 52700,
+        "v1LayerReferences": 64155
+      },
       "compoundHolesPreserved": true,
       "decodedCoordinateTolerance": 0.0009765625,
       "decodedGeometryProof": "matching-cubic-topology-and-bounded-control-points",
       "defaultPaletteBlack": true,
       "encodedCOLRLayers": 64155,
       "fontGlyphs": 53934,
-      "fontSha256": "4af3e649c21e360d2c868e11339eaceb437c1416f753e92f9f986e54b2ebecf1",
+      "fontSha256": "0838674b8209ce72ee3eac38bb78fb9bb5d1a062f69be33159e0b5e8e37ec5b3",
       "maskExpansionFallbacks": [],
       "maskExpansionStrategies": {
         "normalized-stroke": 11223
@@ -654,13 +717,22 @@
           "guardUnits": 3.125
         }
       ],
+      "colorLayers": {
+        "colrVersion": 1,
+        "v0FallbackMatchesV1": true,
+        "v0Glyphs": 11223,
+        "v0LayerRecords": 64155,
+        "v1Glyphs": 11223,
+        "v1LayerRecords": 53126,
+        "v1LayerReferences": 64155
+      },
       "compoundHolesPreserved": true,
       "decodedCoordinateTolerance": 0.0009765625,
       "decodedGeometryProof": "matching-cubic-topology-and-bounded-control-points",
       "defaultPaletteBlack": true,
       "encodedCOLRLayers": 64155,
       "fontGlyphs": 54882,
-      "fontSha256": "9897fa7635654a52fe68a5feb44fa02814f3f3ca65b883ad2fcfc01ff5029a1d",
+      "fontSha256": "825a41a16dfb347cd6f3d405d56ef14088926f12de61ec6757ccc2daec6b21ec",
       "maskExpansionFallbacks": [],
       "maskExpansionStrategies": {
         "normalized-stroke": 11223
@@ -723,13 +795,22 @@
       },
       "clippingGuardSha256": "7e700da9e3281396b8b0059eb22929c26c97d274f2672f0a68932f3835849925",
       "clippingRetries": [],
+      "colorLayers": {
+        "colrVersion": 1,
+        "v0FallbackMatchesV1": true,
+        "v0Glyphs": 11223,
+        "v0LayerRecords": 64155,
+        "v1Glyphs": 11223,
+        "v1LayerRecords": 51948,
+        "v1LayerReferences": 64155
+      },
       "compoundHolesPreserved": true,
       "decodedCoordinateTolerance": 0.0009765625,
       "decodedGeometryProof": "matching-cubic-topology-and-bounded-control-points",
       "defaultPaletteBlack": true,
       "encodedCOLRLayers": 64155,
       "fontGlyphs": 50990,
-      "fontSha256": "61b0dacc1761fd33a2e6e44fcc358db673400e12b971b412906dbff16f20a0c8",
+      "fontSha256": "fedef6f561561a798c5311439dafb267eed1e8d2288fe3e0f4feab0627bab545",
       "maskExpansionFallbacks": [],
       "maskExpansionStrategies": {
         "normalized-stroke": 11223

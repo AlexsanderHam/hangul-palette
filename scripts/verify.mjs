@@ -12,6 +12,7 @@ const manifest = JSON.parse(await read("metadata/manifest.json"));
 assert.equal(manifest.schemaVersion, 1);
 assert.equal(manifest.family, "Hangul Palette");
 assert.equal(manifest.format, "hangul-palette-color-font-v1");
+assert.equal(manifest.fontFormat, "WOFF2 / CFF / COLR v1 with v0 fallback / CPAL v0");
 assert.match(manifest.version, /^\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?$/);
 assert.equal(manifest.fontVersion, manifest.version);
 assert.equal(manifest.complete, true);
@@ -58,6 +59,15 @@ assert.deepEqual(Object.keys(validation.weights).sort(), [...ids].sort());
 for (const weight of manifest.weights) {
   assert.equal(validation.weights[weight.id].passed, true);
   assert.equal(validation.weights[weight.id].fontSha256, manifest.files[weight.fontFile].sha256);
+  const colorLayers = validation.weights[weight.id].colorLayers;
+  assert.equal(colorLayers.colrVersion, 1);
+  assert.equal(colorLayers.v0Glyphs, 11223);
+  assert.equal(colorLayers.v1Glyphs, 11223);
+  assert.equal(colorLayers.v0LayerRecords, validation.weights[weight.id].encodedCOLRLayers);
+  assert.equal(colorLayers.v1LayerReferences, colorLayers.v0LayerRecords);
+  assert(Number.isInteger(colorLayers.v1LayerRecords) && colorLayers.v1LayerRecords > 0);
+  assert(colorLayers.v1LayerRecords <= colorLayers.v1LayerReferences);
+  assert.equal(colorLayers.v0FallbackMatchesV1, true);
 }
 const css = (await read("css/hangul-palette.css")).toString();
 const references = [...css.matchAll(/url\("([^"\n]+)"\)/g)].map((match) => match[1]);
