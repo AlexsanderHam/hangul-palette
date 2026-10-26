@@ -102,7 +102,9 @@ function renderColors() {
       const picker = document.createElement("input");
       picker.type = "color";
       picker.id = `color-${slot.index}`;
-      picker.value = colors[slot.index];
+      picker.name = picker.id;
+      picker.autocomplete = "off";
+      picker.defaultValue = colors[slot.index];
       picker.setAttribute("aria-label", `${slot.label} 색상`);
       picker.title = "눌러서 색상 선택";
       const label = document.createElement("label");
@@ -115,7 +117,8 @@ function renderColors() {
       const hex = document.createElement("input");
       hex.className = "hex-input";
       hex.type = "text";
-      hex.value = colors[slot.index];
+      hex.name = `${picker.id}-hex`;
+      hex.defaultValue = colors[slot.index];
       hex.maxLength = 7;
       hex.spellcheck = false;
       hex.autocomplete = "off";
