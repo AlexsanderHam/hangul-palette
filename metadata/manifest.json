@@ -1,0 +1,1237 @@
+{
+  "schemaVersion": 1,
+  "format": "hangul-palette-color-font-v1",
+  "family": "Hangul Palette",
+  "classificationFormat": "semantic-regions-v1",
+  "fontVersion": "1.0.0",
+  "fontFormat": "WOFF2 / CFF / COLR v0 / CPAL v0",
+  "complete": true,
+  "project": {
+    "projectId": "hangul-palette-baseline",
+    "revision": 0,
+    "rawDigest": "d57655dbf07c576d7ae769d79f27b4d9178c6ce63460f8ef1cab90dca913889f",
+    "baselineDigest": "5c26c450806ae7ef40f5dc1768377117f57d0537a049fb1a56f5edfedca20100"
+  },
+  "metrics": {
+    "unitsPerEm": 2048,
+    "ascender": 1950,
+    "descender": -494,
+    "hangulAdvanceWidth": 1770
+  },
+  "semanticSourceMetrics": {
+    "unitsPerEm": 2896,
+    "viewportAscender": 2259,
+    "defaultAdvanceWidth": 2504
+  },
+  "outlinePolicy": "official-static-font-with-clipped-semantic-layers",
+  "inputs": {
+    "classificationFormat": "semantic-regions-v1",
+    "classificationsSha256": "ef5c4d4fb351a4e0bd8d151a3f923a72e23d6ac18422e14018867c2b89c0093b",
+    "digestEncoding": "SHA-256 of UTF-8 JSON with sorted object keys, compact separators, unescaped Unicode and one trailing LF.",
+    "rawCanonicalSha256": "ecfed4423d0bcd0e40633f8500ba5fa13f9d68d9b5bcc0c2c4c2cd46bdd2c100",
+    "selection": "checked-in-baseline",
+    "sourceProvenance": null,
+    "paletteSha256": "f4fd572ed12c8222d71cbe41c6293ceaf2762b44a2ba20379687d82ac9b59606"
+  },
+  "weights": [
+    {
+      "corrections": [
+        {
+          "char": "몋",
+          "geometry": [
+            {
+              "afterD": "M1295.6901408450703 -1906.394366197183L1295.6901408450703 -1817.9718309859154L2080.7605633802816 -1817.9718309859154L2080.7605633802816 -1906.394366197183Z",
+              "beforeD": "M1295.6901408450703 -1906.394366197183L1295.6901408450703 -1817.9718309859154L2035.1830985915492 -1817.9718309859154L2035.1830985915492 -1906.394366197183Z",
+              "contourRef": 0,
+              "reason": "The recorded Thin branch extension closes the inherited gap beneath its continuous medial stem.",
+              "supportD": "M2036.676056338028 -2256.957746478873L2036.676056338028 -928.0281690140845L2124.845070422535 -928.0281690140845L2124.845070422535 -2256.957746478873Z",
+              "supportRef": 8
+            },
+            {
+              "afterD": "M1295.6901408450703 -1486.3661971830986L1295.6901408450703 -1397.6338028169014L2080.7605633802816 -1397.6338028169014L2080.7605633802816 -1486.3661971830986Z",
+              "beforeD": "M1295.6901408450703 -1486.3661971830986L1295.6901408450703 -1397.6338028169014L2035.1830985915492 -1397.6338028169014L2035.1830985915492 -1486.3661971830986Z",
+              "contourRef": 1,
+              "reason": "The recorded Thin branch extension closes the inherited gap beneath its continuous medial stem.",
+              "supportD": "M2036.676056338028 -2256.957746478873L2036.676056338028 -928.0281690140845L2124.845070422535 -928.0281690140845L2124.845070422535 -2256.957746478873Z",
+              "supportRef": 8
+            }
+          ],
+          "semantic": []
+        }
+      ],
+      "counts": {
+        "characters": 11223,
+        "compatibilityJamo": 51,
+        "modernSyllables": 11172,
+        "regions": 64155,
+        "slots": 20,
+        "sourceContours": 104276
+      },
+      "fontCoverage": {
+        "coloredCharacters": 11223,
+        "coloredMappedCharacters": 11274,
+        "mappedCharacters": 14336,
+        "monochromeMappedCharacters": 3062,
+        "originalGlyphs": 14716
+      },
+      "fontFile": "fonts/hangul-palette-thin.woff2",
+      "id": "thin",
+      "inputs": {
+        "classificationFormat": "semantic-regions-v1",
+        "classificationsSha256": "ef5c4d4fb351a4e0bd8d151a3f923a72e23d6ac18422e14018867c2b89c0093b",
+        "digestEncoding": "SHA-256 of UTF-8 JSON with sorted object keys, compact separators, unescaped Unicode and one trailing LF.",
+        "rawCanonicalSha256": "35e05f371f1b3b9c600140d4082b34072957e576e10113b7744e8442ff8e9308",
+        "selection": "checked-in-baseline",
+        "sourceProvenance": {
+          "extractorVersion": 1,
+          "fingerprintAlgorithm": "sha256-path-length-content-v1",
+          "fontInfoSha256": "0aa71a035d7763a5b38993ba4c02b743c583b316bffaab91082eb9627e1758c1",
+          "fontMetrics": {
+            "ascender": 2757,
+            "descender": -699,
+            "unitsPerEm": 2896
+          },
+          "geometryBounds": "control-points",
+          "instance": {
+            "masters": [
+              {
+                "factor": 0.8450704225352113,
+                "id": "B1F27B51-9973-4381-9301-4FE46FE1CA59",
+                "weight": 45
+              },
+              {
+                "factor": 0.15492957746478872,
+                "id": "CD0E3B44-F66A-4791-B84C-A1128DC61275",
+                "weight": 400
+              }
+            ],
+            "name": "Thin",
+            "weight": 100
+          },
+          "licenseSha256": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04",
+          "master": {
+            "id": "CD0E3B44-F66A-4791-B84C-A1128DC61275",
+            "name": "Normal",
+            "weight": 400
+          },
+          "ref": "v1.3.9",
+          "repository": "https://github.com/orioncactus/pretendard",
+          "revision": "5c41199ea0024a9e0b2cb31735265056e5472d76",
+          "sourceFingerprint": "46da46faef79f7658a95ca6f6809dc427d43d715a52be6c7ee3d673c60ba6ed4",
+          "viewportAscender": 2259
+        }
+      },
+      "label": "Thin",
+      "officialSource": {
+        "bytes": 1487484,
+        "path": "packages/pretendard/dist/public/static/Pretendard-Thin.otf",
+        "ref": "v1.3.9",
+        "repository": "https://github.com/orioncactus/pretendard",
+        "revision": "5c41199ea0024a9e0b2cb31735265056e5472d76",
+        "sha256": "635354dcdcc133318be74f9a83cb59d29652c56d463bcd34e20a8cd6e01f3af9"
+      },
+      "sourceProfile": {
+        "geometrySha256": "814689e684723b2311655422de0523a806c829aacbdd4458bdf5f7fbba874dfc",
+        "scope": "Verified semantic masks for this pinned official static font; masks do not replace original fallback outlines.",
+        "sourceViewportAscender": 2259,
+        "upstream": "Pretendard Thin v1.3.9",
+        "weight": 100
+      },
+      "weight": 100
+    },
+    {
+      "corrections": [],
+      "counts": {
+        "characters": 11223,
+        "compatibilityJamo": 51,
+        "modernSyllables": 11172,
+        "regions": 64155,
+        "slots": 20,
+        "sourceContours": 104276
+      },
+      "fontCoverage": {
+        "coloredCharacters": 11223,
+        "coloredMappedCharacters": 11274,
+        "mappedCharacters": 14336,
+        "monochromeMappedCharacters": 3062,
+        "originalGlyphs": 14716
+      },
+      "fontFile": "fonts/hangul-palette-extra-light.woff2",
+      "id": "extra-light",
+      "inputs": {
+        "classificationFormat": "semantic-regions-v1",
+        "classificationsSha256": "ef5c4d4fb351a4e0bd8d151a3f923a72e23d6ac18422e14018867c2b89c0093b",
+        "digestEncoding": "SHA-256 of UTF-8 JSON with sorted object keys, compact separators, unescaped Unicode and one trailing LF.",
+        "rawCanonicalSha256": "dfcd18351703c37dda0434ac52a7ea0b4dc4bb1fd7737932b48948bfe579aed1",
+        "selection": "checked-in-baseline",
+        "sourceProvenance": {
+          "extractorVersion": 1,
+          "fingerprintAlgorithm": "sha256-path-length-content-v1",
+          "fontInfoSha256": "0aa71a035d7763a5b38993ba4c02b743c583b316bffaab91082eb9627e1758c1",
+          "fontMetrics": {
+            "ascender": 2757,
+            "descender": -699,
+            "unitsPerEm": 2896
+          },
+          "geometryBounds": "control-points",
+          "instance": {
+            "masters": [
+              {
+                "factor": 0.5633802816901409,
+                "id": "B1F27B51-9973-4381-9301-4FE46FE1CA59",
+                "weight": 45
+              },
+              {
+                "factor": 0.43661971830985913,
+                "id": "CD0E3B44-F66A-4791-B84C-A1128DC61275",
+                "weight": 400
+              }
+            ],
+            "name": "ExtraLight",
+            "weight": 200
+          },
+          "licenseSha256": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04",
+          "master": {
+            "id": "CD0E3B44-F66A-4791-B84C-A1128DC61275",
+            "name": "Normal",
+            "weight": 400
+          },
+          "ref": "v1.3.9",
+          "repository": "https://github.com/orioncactus/pretendard",
+          "revision": "5c41199ea0024a9e0b2cb31735265056e5472d76",
+          "sourceFingerprint": "46da46faef79f7658a95ca6f6809dc427d43d715a52be6c7ee3d673c60ba6ed4",
+          "viewportAscender": 2259
+        }
+      },
+      "label": "ExtraLight",
+      "officialSource": {
+        "bytes": 1544180,
+        "path": "packages/pretendard/dist/public/static/Pretendard-ExtraLight.otf",
+        "ref": "v1.3.9",
+        "repository": "https://github.com/orioncactus/pretendard",
+        "revision": "5c41199ea0024a9e0b2cb31735265056e5472d76",
+        "sha256": "e2837078f57079de2742e83c394a70b8a80b9662bc8ff4e96e7b791d6bd7cdbb"
+      },
+      "sourceProfile": {
+        "geometrySha256": "1e42d1340188b76b775397b42d20b4e62412581f92328097241da84bf5956442",
+        "scope": "Verified semantic masks for this pinned official static font; masks do not replace original fallback outlines.",
+        "sourceViewportAscender": 2259,
+        "upstream": "Pretendard ExtraLight v1.3.9",
+        "weight": 200
+      },
+      "weight": 200
+    },
+    {
+      "corrections": [],
+      "counts": {
+        "characters": 11223,
+        "compatibilityJamo": 51,
+        "modernSyllables": 11172,
+        "regions": 64155,
+        "slots": 20,
+        "sourceContours": 104276
+      },
+      "fontCoverage": {
+        "coloredCharacters": 11223,
+        "coloredMappedCharacters": 11274,
+        "mappedCharacters": 14336,
+        "monochromeMappedCharacters": 3062,
+        "originalGlyphs": 14716
+      },
+      "fontFile": "fonts/hangul-palette-light.woff2",
+      "id": "light",
+      "inputs": {
+        "classificationFormat": "semantic-regions-v1",
+        "classificationsSha256": "ef5c4d4fb351a4e0bd8d151a3f923a72e23d6ac18422e14018867c2b89c0093b",
+        "digestEncoding": "SHA-256 of UTF-8 JSON with sorted object keys, compact separators, unescaped Unicode and one trailing LF.",
+        "rawCanonicalSha256": "a365e528b5143264e8a83cadb4e2fafc07a08f52ade595611d03017ed9b412f5",
+        "selection": "checked-in-baseline",
+        "sourceProvenance": {
+          "extractorVersion": 1,
+          "fingerprintAlgorithm": "sha256-path-length-content-v1",
+          "fontInfoSha256": "0aa71a035d7763a5b38993ba4c02b743c583b316bffaab91082eb9627e1758c1",
+          "fontMetrics": {
+            "ascender": 2757,
+            "descender": -699,
+            "unitsPerEm": 2896
+          },
+          "geometryBounds": "control-points",
+          "instance": {
+            "masters": [
+              {
+                "factor": 0.2816901408450704,
+                "id": "B1F27B51-9973-4381-9301-4FE46FE1CA59",
+                "weight": 45
+              },
+              {
+                "factor": 0.7183098591549296,
+                "id": "CD0E3B44-F66A-4791-B84C-A1128DC61275",
+                "weight": 400
+              }
+            ],
+            "name": "Light",
+            "weight": 300
+          },
+          "licenseSha256": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04",
+          "master": {
+            "id": "CD0E3B44-F66A-4791-B84C-A1128DC61275",
+            "name": "Normal",
+            "weight": 400
+          },
+          "ref": "v1.3.9",
+          "repository": "https://github.com/orioncactus/pretendard",
+          "revision": "5c41199ea0024a9e0b2cb31735265056e5472d76",
+          "sourceFingerprint": "46da46faef79f7658a95ca6f6809dc427d43d715a52be6c7ee3d673c60ba6ed4",
+          "viewportAscender": 2259
+        }
+      },
+      "label": "Light",
+      "officialSource": {
+        "bytes": 1599968,
+        "path": "packages/pretendard/dist/public/static/Pretendard-Light.otf",
+        "ref": "v1.3.9",
+        "repository": "https://github.com/orioncactus/pretendard",
+        "revision": "5c41199ea0024a9e0b2cb31735265056e5472d76",
+        "sha256": "51418ee96ef96e9059db88d7da82f24fada1f4aca70d5157c878ea6b460dd343"
+      },
+      "sourceProfile": {
+        "geometrySha256": "02e26023616a345926c82d0bd52f494265b6011f8ec44e4edbf0fb6c3ebeb623",
+        "scope": "Verified semantic masks for this pinned official static font; masks do not replace original fallback outlines.",
+        "sourceViewportAscender": 2259,
+        "upstream": "Pretendard Light v1.3.9",
+        "weight": 300
+      },
+      "weight": 300
+    },
+    {
+      "corrections": [
+        {
+          "char": "휺",
+          "geometry": [
+            {
+              "afterD": "M1536 -928L1536 -478L1758 -478L1758 -928Z",
+              "beforeD": "M1536 -798L1536 -478L1758 -478L1758 -798Z",
+              "contourRef": 1,
+              "reason": "The recorded branch extension closes the inherited source gap beneath its continuous support.",
+              "supportD": "M102 -970L102 -802L2394 -802L2394 -970Z",
+              "supportRef": 6
+            }
+          ],
+          "semantic": []
+        }
+      ],
+      "counts": {
+        "characters": 11223,
+        "compatibilityJamo": 51,
+        "modernSyllables": 11172,
+        "regions": 64155,
+        "slots": 20,
+        "sourceContours": 104276
+      },
+      "fontCoverage": {
+        "coloredCharacters": 11223,
+        "coloredMappedCharacters": 11274,
+        "mappedCharacters": 14336,
+        "monochromeMappedCharacters": 3062,
+        "originalGlyphs": 14716
+      },
+      "fontFile": "fonts/hangul-palette-regular.woff2",
+      "id": "regular",
+      "inputs": {
+        "classificationFormat": "semantic-regions-v1",
+        "classificationsSha256": "ef5c4d4fb351a4e0bd8d151a3f923a72e23d6ac18422e14018867c2b89c0093b",
+        "digestEncoding": "SHA-256 of UTF-8 JSON with sorted object keys, compact separators, unescaped Unicode and one trailing LF.",
+        "rawCanonicalSha256": "ecfed4423d0bcd0e40633f8500ba5fa13f9d68d9b5bcc0c2c4c2cd46bdd2c100",
+        "selection": "checked-in-baseline",
+        "sourceProvenance": null
+      },
+      "label": "Regular",
+      "officialSource": {
+        "bytes": 1574352,
+        "path": "packages/pretendard/dist/public/static/Pretendard-Regular.otf",
+        "ref": "v1.3.9",
+        "repository": "https://github.com/orioncactus/pretendard",
+        "revision": "5c41199ea0024a9e0b2cb31735265056e5472d76",
+        "sha256": "3ffbacde6ab8411f1d2db54bb9b1f0b3ee2a738932033722cf0388c06aed1c93"
+      },
+      "sourceProfile": {
+        "geometrySha256": "2cb9f9caa28fe804b0ddb72f9bade8781865a5c2135ca0025ed2691b0184f263",
+        "scope": "Verified semantic masks for this pinned official static font; masks do not replace original fallback outlines.",
+        "sourceViewportAscender": 2259,
+        "upstream": "Pretendard Regular v1.3.9",
+        "weight": 400
+      },
+      "weight": 400
+    },
+    {
+      "corrections": [
+        {
+          "char": "휺",
+          "geometry": [],
+          "semantic": [
+            {
+              "contourRef": 12,
+              "originalSlotId": "final.part2.body",
+              "reason": "The heavy master exchanges the vowel branch and final ㅎ stem; retain the stored Regular semantic identity on its corresponding physical contour.",
+              "slotId": "medial.part1.right-vertical",
+              "sourceContourRef": 1
+            },
+            {
+              "contourRef": 1,
+              "originalSlotId": "medial.part1.right-vertical",
+              "reason": "The heavy master exchanges the vowel branch and final ㅎ stem; retain the stored Regular semantic identity on its corresponding physical contour.",
+              "slotId": "final.part2.body",
+              "sourceContourRef": 12
+            }
+          ]
+        }
+      ],
+      "counts": {
+        "characters": 11223,
+        "compatibilityJamo": 51,
+        "modernSyllables": 11172,
+        "regions": 64155,
+        "slots": 20,
+        "sourceContours": 104276
+      },
+      "fontCoverage": {
+        "coloredCharacters": 11223,
+        "coloredMappedCharacters": 11274,
+        "mappedCharacters": 14336,
+        "monochromeMappedCharacters": 3062,
+        "originalGlyphs": 14716
+      },
+      "fontFile": "fonts/hangul-palette-medium.woff2",
+      "id": "medium",
+      "inputs": {
+        "classificationFormat": "semantic-regions-v1",
+        "classificationsSha256": "ef5c4d4fb351a4e0bd8d151a3f923a72e23d6ac18422e14018867c2b89c0093b",
+        "digestEncoding": "SHA-256 of UTF-8 JSON with sorted object keys, compact separators, unescaped Unicode and one trailing LF.",
+        "rawCanonicalSha256": "be86622215e3e9c45bef6932bffa987c6512c0d1f3051832cf1dcd86442cc4da",
+        "selection": "checked-in-baseline",
+        "sourceProvenance": {
+          "extractorVersion": 1,
+          "fingerprintAlgorithm": "sha256-path-length-content-v1",
+          "fontInfoSha256": "0aa71a035d7763a5b38993ba4c02b743c583b316bffaab91082eb9627e1758c1",
+          "fontMetrics": {
+            "ascender": 2757,
+            "descender": -699,
+            "unitsPerEm": 2896
+          },
+          "geometryBounds": "control-points",
+          "instance": {
+            "masters": [
+              {
+                "factor": 0.8113207547169812,
+                "id": "CD0E3B44-F66A-4791-B84C-A1128DC61275",
+                "weight": 400
+              },
+              {
+                "factor": 0.18867924528301888,
+                "id": "5C20EF92-B63D-42A8-8878-93C2863E0093",
+                "weight": 930
+              }
+            ],
+            "name": "Medium",
+            "weight": 500
+          },
+          "licenseSha256": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04",
+          "master": {
+            "id": "CD0E3B44-F66A-4791-B84C-A1128DC61275",
+            "name": "Normal",
+            "weight": 400
+          },
+          "ref": "v1.3.9",
+          "repository": "https://github.com/orioncactus/pretendard",
+          "revision": "5c41199ea0024a9e0b2cb31735265056e5472d76",
+          "sourceFingerprint": "46da46faef79f7658a95ca6f6809dc427d43d715a52be6c7ee3d673c60ba6ed4",
+          "viewportAscender": 2259
+        }
+      },
+      "label": "Medium",
+      "officialSource": {
+        "bytes": 1584068,
+        "path": "packages/pretendard/dist/public/static/Pretendard-Medium.otf",
+        "ref": "v1.3.9",
+        "repository": "https://github.com/orioncactus/pretendard",
+        "revision": "5c41199ea0024a9e0b2cb31735265056e5472d76",
+        "sha256": "d39e50e4bb52b4993b6a4eeb821a171254745bd824446af01e1f616b89fface0"
+      },
+      "sourceProfile": {
+        "geometrySha256": "164a4e0296e4d8f753f0436ba4c4a0e41d160f58cdd1dc733df5dd48479c1f2f",
+        "scope": "Verified semantic masks for this pinned official static font; masks do not replace original fallback outlines.",
+        "sourceViewportAscender": 2259,
+        "upstream": "Pretendard Medium v1.3.9",
+        "weight": 500
+      },
+      "weight": 500
+    },
+    {
+      "corrections": [
+        {
+          "char": "휺",
+          "geometry": [],
+          "semantic": [
+            {
+              "contourRef": 12,
+              "originalSlotId": "final.part2.body",
+              "reason": "The heavy master exchanges the vowel branch and final ㅎ stem; retain the stored Regular semantic identity on its corresponding physical contour.",
+              "slotId": "medial.part1.right-vertical",
+              "sourceContourRef": 1
+            },
+            {
+              "contourRef": 1,
+              "originalSlotId": "medial.part1.right-vertical",
+              "reason": "The heavy master exchanges the vowel branch and final ㅎ stem; retain the stored Regular semantic identity on its corresponding physical contour.",
+              "slotId": "final.part2.body",
+              "sourceContourRef": 12
+            }
+          ]
+        }
+      ],
+      "counts": {
+        "characters": 11223,
+        "compatibilityJamo": 51,
+        "modernSyllables": 11172,
+        "regions": 64155,
+        "slots": 20,
+        "sourceContours": 104276
+      },
+      "fontCoverage": {
+        "coloredCharacters": 11223,
+        "coloredMappedCharacters": 11274,
+        "mappedCharacters": 14336,
+        "monochromeMappedCharacters": 3062,
+        "originalGlyphs": 14716
+      },
+      "fontFile": "fonts/hangul-palette-semi-bold.woff2",
+      "id": "semi-bold",
+      "inputs": {
+        "classificationFormat": "semantic-regions-v1",
+        "classificationsSha256": "ef5c4d4fb351a4e0bd8d151a3f923a72e23d6ac18422e14018867c2b89c0093b",
+        "digestEncoding": "SHA-256 of UTF-8 JSON with sorted object keys, compact separators, unescaped Unicode and one trailing LF.",
+        "rawCanonicalSha256": "907781125896478845edbb1f6420a338a5988e2b6bd83f6ba4334ece6e04a3a8",
+        "selection": "checked-in-baseline",
+        "sourceProvenance": {
+          "extractorVersion": 1,
+          "fingerprintAlgorithm": "sha256-path-length-content-v1",
+          "fontInfoSha256": "0aa71a035d7763a5b38993ba4c02b743c583b316bffaab91082eb9627e1758c1",
+          "fontMetrics": {
+            "ascender": 2757,
+            "descender": -699,
+            "unitsPerEm": 2896
+          },
+          "geometryBounds": "control-points",
+          "instance": {
+            "masters": [
+              {
+                "factor": 0.6226415094339622,
+                "id": "CD0E3B44-F66A-4791-B84C-A1128DC61275",
+                "weight": 400
+              },
+              {
+                "factor": 0.37735849056603776,
+                "id": "5C20EF92-B63D-42A8-8878-93C2863E0093",
+                "weight": 930
+              }
+            ],
+            "name": "SemiBold",
+            "weight": 600
+          },
+          "licenseSha256": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04",
+          "master": {
+            "id": "CD0E3B44-F66A-4791-B84C-A1128DC61275",
+            "name": "Normal",
+            "weight": 400
+          },
+          "ref": "v1.3.9",
+          "repository": "https://github.com/orioncactus/pretendard",
+          "revision": "5c41199ea0024a9e0b2cb31735265056e5472d76",
+          "sourceFingerprint": "46da46faef79f7658a95ca6f6809dc427d43d715a52be6c7ee3d673c60ba6ed4",
+          "viewportAscender": 2259
+        }
+      },
+      "label": "SemiBold",
+      "officialSource": {
+        "bytes": 1583704,
+        "path": "packages/pretendard/dist/public/static/Pretendard-SemiBold.otf",
+        "ref": "v1.3.9",
+        "repository": "https://github.com/orioncactus/pretendard",
+        "revision": "5c41199ea0024a9e0b2cb31735265056e5472d76",
+        "sha256": "c89bc43027dc7cde5726e96223376f8eec09302b2fc1f8147fd5b57cfc376118"
+      },
+      "sourceProfile": {
+        "geometrySha256": "d0db9fe2d7bd7269175e0a173e1b9b6fe2d0021cb17ad44842a86fd7af4d07c0",
+        "scope": "Verified semantic masks for this pinned official static font; masks do not replace original fallback outlines.",
+        "sourceViewportAscender": 2259,
+        "upstream": "Pretendard SemiBold v1.3.9",
+        "weight": 600
+      },
+      "weight": 600
+    },
+    {
+      "corrections": [
+        {
+          "char": "휺",
+          "geometry": [],
+          "semantic": [
+            {
+              "contourRef": 12,
+              "originalSlotId": "final.part2.body",
+              "reason": "The heavy master exchanges the vowel branch and final ㅎ stem; retain the stored Regular semantic identity on its corresponding physical contour.",
+              "slotId": "medial.part1.right-vertical",
+              "sourceContourRef": 1
+            },
+            {
+              "contourRef": 1,
+              "originalSlotId": "medial.part1.right-vertical",
+              "reason": "The heavy master exchanges the vowel branch and final ㅎ stem; retain the stored Regular semantic identity on its corresponding physical contour.",
+              "slotId": "final.part2.body",
+              "sourceContourRef": 12
+            }
+          ]
+        }
+      ],
+      "counts": {
+        "characters": 11223,
+        "compatibilityJamo": 51,
+        "modernSyllables": 11172,
+        "regions": 64155,
+        "slots": 20,
+        "sourceContours": 104276
+      },
+      "fontCoverage": {
+        "coloredCharacters": 11223,
+        "coloredMappedCharacters": 11274,
+        "mappedCharacters": 14336,
+        "monochromeMappedCharacters": 3062,
+        "originalGlyphs": 14716
+      },
+      "fontFile": "fonts/hangul-palette-bold.woff2",
+      "id": "bold",
+      "inputs": {
+        "classificationFormat": "semantic-regions-v1",
+        "classificationsSha256": "ef5c4d4fb351a4e0bd8d151a3f923a72e23d6ac18422e14018867c2b89c0093b",
+        "digestEncoding": "SHA-256 of UTF-8 JSON with sorted object keys, compact separators, unescaped Unicode and one trailing LF.",
+        "rawCanonicalSha256": "48de412a394f7b463fb2a6656ea8877c742df592e72d49cbe0118e907925aae0",
+        "selection": "checked-in-baseline",
+        "sourceProvenance": {
+          "extractorVersion": 1,
+          "fingerprintAlgorithm": "sha256-path-length-content-v1",
+          "fontInfoSha256": "0aa71a035d7763a5b38993ba4c02b743c583b316bffaab91082eb9627e1758c1",
+          "fontMetrics": {
+            "ascender": 2757,
+            "descender": -699,
+            "unitsPerEm": 2896
+          },
+          "geometryBounds": "control-points",
+          "instance": {
+            "masters": [
+              {
+                "factor": 0.4339622641509434,
+                "id": "CD0E3B44-F66A-4791-B84C-A1128DC61275",
+                "weight": 400
+              },
+              {
+                "factor": 0.5660377358490566,
+                "id": "5C20EF92-B63D-42A8-8878-93C2863E0093",
+                "weight": 930
+              }
+            ],
+            "name": "Bold",
+            "weight": 700
+          },
+          "licenseSha256": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04",
+          "master": {
+            "id": "CD0E3B44-F66A-4791-B84C-A1128DC61275",
+            "name": "Normal",
+            "weight": 400
+          },
+          "ref": "v1.3.9",
+          "repository": "https://github.com/orioncactus/pretendard",
+          "revision": "5c41199ea0024a9e0b2cb31735265056e5472d76",
+          "sourceFingerprint": "46da46faef79f7658a95ca6f6809dc427d43d715a52be6c7ee3d673c60ba6ed4",
+          "viewportAscender": 2259
+        }
+      },
+      "label": "Bold",
+      "officialSource": {
+        "bytes": 1576660,
+        "path": "packages/pretendard/dist/public/static/Pretendard-Bold.otf",
+        "ref": "v1.3.9",
+        "repository": "https://github.com/orioncactus/pretendard",
+        "revision": "5c41199ea0024a9e0b2cb31735265056e5472d76",
+        "sha256": "2e91915fab54df71cc9598ebf608b2bdb54c6fe3c066ac61dff0bc44fca71cc7"
+      },
+      "sourceProfile": {
+        "geometrySha256": "08cb32dc290ec4228c6268fc595bccbd05ea4c3b9cf1f46c47c3a869d03db509",
+        "scope": "Verified semantic masks for this pinned official static font; masks do not replace original fallback outlines.",
+        "sourceViewportAscender": 2259,
+        "upstream": "Pretendard Bold v1.3.9",
+        "weight": 700
+      },
+      "weight": 700
+    },
+    {
+      "corrections": [
+        {
+          "char": "휺",
+          "geometry": [],
+          "semantic": [
+            {
+              "contourRef": 12,
+              "originalSlotId": "final.part2.body",
+              "reason": "The heavy master exchanges the vowel branch and final ㅎ stem; retain the stored Regular semantic identity on its corresponding physical contour.",
+              "slotId": "medial.part1.right-vertical",
+              "sourceContourRef": 1
+            },
+            {
+              "contourRef": 1,
+              "originalSlotId": "medial.part1.right-vertical",
+              "reason": "The heavy master exchanges the vowel branch and final ㅎ stem; retain the stored Regular semantic identity on its corresponding physical contour.",
+              "slotId": "final.part2.body",
+              "sourceContourRef": 12
+            }
+          ]
+        }
+      ],
+      "counts": {
+        "characters": 11223,
+        "compatibilityJamo": 51,
+        "modernSyllables": 11172,
+        "regions": 64155,
+        "slots": 20,
+        "sourceContours": 104276
+      },
+      "fontCoverage": {
+        "coloredCharacters": 11223,
+        "coloredMappedCharacters": 11274,
+        "mappedCharacters": 14336,
+        "monochromeMappedCharacters": 3062,
+        "originalGlyphs": 14716
+      },
+      "fontFile": "fonts/hangul-palette-extra-bold.woff2",
+      "id": "extra-bold",
+      "inputs": {
+        "classificationFormat": "semantic-regions-v1",
+        "classificationsSha256": "ef5c4d4fb351a4e0bd8d151a3f923a72e23d6ac18422e14018867c2b89c0093b",
+        "digestEncoding": "SHA-256 of UTF-8 JSON with sorted object keys, compact separators, unescaped Unicode and one trailing LF.",
+        "rawCanonicalSha256": "b0bb9b8568b9461e5c033e30045b740382bea7ec443b8e9068c345cb832a7213",
+        "selection": "checked-in-baseline",
+        "sourceProvenance": {
+          "extractorVersion": 1,
+          "fingerprintAlgorithm": "sha256-path-length-content-v1",
+          "fontInfoSha256": "0aa71a035d7763a5b38993ba4c02b743c583b316bffaab91082eb9627e1758c1",
+          "fontMetrics": {
+            "ascender": 2757,
+            "descender": -699,
+            "unitsPerEm": 2896
+          },
+          "geometryBounds": "control-points",
+          "instance": {
+            "masters": [
+              {
+                "factor": 0.24528301886792447,
+                "id": "CD0E3B44-F66A-4791-B84C-A1128DC61275",
+                "weight": 400
+              },
+              {
+                "factor": 0.7547169811320755,
+                "id": "5C20EF92-B63D-42A8-8878-93C2863E0093",
+                "weight": 930
+              }
+            ],
+            "name": "ExtraBold",
+            "weight": 800
+          },
+          "licenseSha256": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04",
+          "master": {
+            "id": "CD0E3B44-F66A-4791-B84C-A1128DC61275",
+            "name": "Normal",
+            "weight": 400
+          },
+          "ref": "v1.3.9",
+          "repository": "https://github.com/orioncactus/pretendard",
+          "revision": "5c41199ea0024a9e0b2cb31735265056e5472d76",
+          "sourceFingerprint": "46da46faef79f7658a95ca6f6809dc427d43d715a52be6c7ee3d673c60ba6ed4",
+          "viewportAscender": 2259
+        }
+      },
+      "label": "ExtraBold",
+      "officialSource": {
+        "bytes": 1568512,
+        "path": "packages/pretendard/dist/public/static/Pretendard-ExtraBold.otf",
+        "ref": "v1.3.9",
+        "repository": "https://github.com/orioncactus/pretendard",
+        "revision": "5c41199ea0024a9e0b2cb31735265056e5472d76",
+        "sha256": "c35fe941b7568d52a96010561540e47f9d3948dfde66ba25bc1908233e0a40cd"
+      },
+      "sourceProfile": {
+        "geometrySha256": "f1df2c3955455f8491e65ea5a8547f312c48ea5a185aee66d1e697dd66a7a149",
+        "scope": "Verified semantic masks for this pinned official static font; masks do not replace original fallback outlines.",
+        "sourceViewportAscender": 2259,
+        "upstream": "Pretendard ExtraBold v1.3.9",
+        "weight": 800
+      },
+      "weight": 800
+    },
+    {
+      "corrections": [
+        {
+          "char": "휺",
+          "geometry": [],
+          "semantic": [
+            {
+              "contourRef": 12,
+              "originalSlotId": "final.part2.body",
+              "reason": "The heavy master exchanges the vowel branch and final ㅎ stem; retain the stored Regular semantic identity on its corresponding physical contour.",
+              "slotId": "medial.part1.right-vertical",
+              "sourceContourRef": 1
+            },
+            {
+              "contourRef": 1,
+              "originalSlotId": "medial.part1.right-vertical",
+              "reason": "The heavy master exchanges the vowel branch and final ㅎ stem; retain the stored Regular semantic identity on its corresponding physical contour.",
+              "slotId": "final.part2.body",
+              "sourceContourRef": 12
+            }
+          ]
+        }
+      ],
+      "counts": {
+        "characters": 11223,
+        "compatibilityJamo": 51,
+        "modernSyllables": 11172,
+        "regions": 64155,
+        "slots": 20,
+        "sourceContours": 104276
+      },
+      "fontCoverage": {
+        "coloredCharacters": 11223,
+        "coloredMappedCharacters": 11274,
+        "mappedCharacters": 14336,
+        "monochromeMappedCharacters": 3062,
+        "originalGlyphs": 14716
+      },
+      "fontFile": "fonts/hangul-palette-black.woff2",
+      "id": "black",
+      "inputs": {
+        "classificationFormat": "semantic-regions-v1",
+        "classificationsSha256": "ef5c4d4fb351a4e0bd8d151a3f923a72e23d6ac18422e14018867c2b89c0093b",
+        "digestEncoding": "SHA-256 of UTF-8 JSON with sorted object keys, compact separators, unescaped Unicode and one trailing LF.",
+        "rawCanonicalSha256": "94c4d43c3003dcf69ab38b725d51784595373f5743a1a55b38978eceef77fffd",
+        "selection": "checked-in-baseline",
+        "sourceProvenance": {
+          "extractorVersion": 1,
+          "fingerprintAlgorithm": "sha256-path-length-content-v1",
+          "fontInfoSha256": "0aa71a035d7763a5b38993ba4c02b743c583b316bffaab91082eb9627e1758c1",
+          "fontMetrics": {
+            "ascender": 2757,
+            "descender": -699,
+            "unitsPerEm": 2896
+          },
+          "geometryBounds": "control-points",
+          "instance": {
+            "masters": [
+              {
+                "factor": 0.05660377358490565,
+                "id": "CD0E3B44-F66A-4791-B84C-A1128DC61275",
+                "weight": 400
+              },
+              {
+                "factor": 0.9433962264150944,
+                "id": "5C20EF92-B63D-42A8-8878-93C2863E0093",
+                "weight": 930
+              }
+            ],
+            "name": "Black",
+            "weight": 900
+          },
+          "licenseSha256": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04",
+          "master": {
+            "id": "CD0E3B44-F66A-4791-B84C-A1128DC61275",
+            "name": "Normal",
+            "weight": 400
+          },
+          "ref": "v1.3.9",
+          "repository": "https://github.com/orioncactus/pretendard",
+          "revision": "5c41199ea0024a9e0b2cb31735265056e5472d76",
+          "sourceFingerprint": "46da46faef79f7658a95ca6f6809dc427d43d715a52be6c7ee3d673c60ba6ed4",
+          "viewportAscender": 2259
+        }
+      },
+      "label": "Black",
+      "officialFillAllocations": [
+        {
+          "adjacentFilledArea": 68.34822473675013,
+          "area": 1290.7364654541016,
+          "bounds": [
+            888.3077392578125,
+            846.50634765625,
+            957.4869995117188,
+            881.8318481445312
+          ],
+          "char": "셱",
+          "id": "black-syek-lower-vowel-corner",
+          "maximumOwnerDistanceUnits": 40,
+          "reason": "The official merged outline fills the inner corner next to source contour 3; follow its explicit region and retain the curved initial consonant boundary.",
+          "slot": 7,
+          "slotId": "medial.part1.left-lower-bar",
+          "sourceContourRef": 3,
+          "sourceGeometrySha256": "81bc84a458294d1ef26a457503c18061a7b829deb8672a1bbfbb4a1248380091",
+          "weight": "black"
+        }
+      ],
+      "officialSource": {
+        "bytes": 1559552,
+        "path": "packages/pretendard/dist/public/static/Pretendard-Black.otf",
+        "ref": "v1.3.9",
+        "repository": "https://github.com/orioncactus/pretendard",
+        "revision": "5c41199ea0024a9e0b2cb31735265056e5472d76",
+        "sha256": "94628b0bcea8936b6e5c30d98d685eb9bbaffb0fe2ed255542ecc656c248e021"
+      },
+      "sourceProfile": {
+        "geometrySha256": "ac00b8b4a8be2b104b14629637b450f9a628b73011ebacabec5e039519eedd73",
+        "scope": "Verified semantic masks for this pinned official static font; masks do not replace original fallback outlines.",
+        "sourceViewportAscender": 2259,
+        "upstream": "Pretendard Black v1.3.9",
+        "weight": 900
+      },
+      "weight": 900
+    }
+  ],
+  "contract": {
+    "version": "1.0",
+    "sha256": "745c093f91079dcad794166a70f820ee4a772a247c59fab6abb090dfcc48fb08"
+  },
+  "slots": [
+    {
+      "id": "initial.part1.body",
+      "index": 0,
+      "label": "초성 첫째 구성 자모 · 본체",
+      "role": "initial",
+      "part": 1,
+      "feature": "body",
+      "color": "#f97373"
+    },
+    {
+      "id": "initial.part2.body",
+      "index": 1,
+      "label": "초성 둘째 구성 자모 · 본체",
+      "role": "initial",
+      "part": 2,
+      "feature": "body",
+      "color": "#b870ef"
+    },
+    {
+      "id": "initial.part1.added-bar",
+      "index": 2,
+      "label": "초성 첫째 구성 자모 · 추가 가로획",
+      "role": "initial",
+      "part": 1,
+      "feature": "added-bar",
+      "color": "#e649a5"
+    },
+    {
+      "id": "medial.part1.vertical",
+      "index": 3,
+      "label": "중성 첫째 구성 자모 · 세로",
+      "role": "medial",
+      "part": 1,
+      "feature": "vertical",
+      "color": "#f0ab37"
+    },
+    {
+      "id": "medial.part1.horizontal",
+      "index": 4,
+      "label": "중성 첫째 구성 자모 · 가로",
+      "role": "medial",
+      "part": 1,
+      "feature": "horizontal",
+      "color": "#27ba8b"
+    },
+    {
+      "id": "medial.part1.right-bar",
+      "index": 5,
+      "label": "중성 첫째 구성 자모 · 오른쪽 짧은 가로",
+      "role": "medial",
+      "part": 1,
+      "feature": "right-bar",
+      "color": "#eb6838"
+    },
+    {
+      "id": "medial.part1.left-upper-bar",
+      "index": 6,
+      "label": "중성 첫째 구성 자모 · 왼쪽 위 짧은 가로",
+      "role": "medial",
+      "part": 1,
+      "feature": "left-upper-bar",
+      "color": "#a3b82d"
+    },
+    {
+      "id": "medial.part1.left-lower-bar",
+      "index": 7,
+      "label": "중성 첫째 구성 자모 · 왼쪽 아래 짧은 가로",
+      "role": "medial",
+      "part": 1,
+      "feature": "left-lower-bar",
+      "color": "#17a7c2"
+    },
+    {
+      "id": "medial.part2.vertical",
+      "index": 8,
+      "label": "중성 둘째 구성 자모 · 세로",
+      "role": "medial",
+      "part": 2,
+      "feature": "vertical",
+      "color": "#4f8df0"
+    },
+    {
+      "id": "medial.part2.right-bar",
+      "index": 9,
+      "label": "중성 둘째 구성 자모 · 오른쪽 짧은 가로",
+      "role": "medial",
+      "part": 2,
+      "feature": "right-bar",
+      "color": "#d9a22a"
+    },
+    {
+      "id": "medial.part3.vertical",
+      "index": 10,
+      "label": "중성 셋째 구성 자모 · 세로",
+      "role": "medial",
+      "part": 3,
+      "feature": "vertical",
+      "color": "#8a78ec"
+    },
+    {
+      "id": "final.part1.body",
+      "index": 11,
+      "label": "종성 첫째 구성 자모 · 본체",
+      "role": "final",
+      "part": 1,
+      "feature": "body",
+      "color": "#3dbfa6"
+    },
+    {
+      "id": "final.part2.body",
+      "index": 12,
+      "label": "종성 둘째 구성 자모 · 본체",
+      "role": "final",
+      "part": 2,
+      "feature": "body",
+      "color": "#e36cbb"
+    },
+    {
+      "id": "medial.part1.left-bar",
+      "index": 13,
+      "label": "중성 첫째 구성 자모 · 왼쪽 짧은 가로",
+      "role": "medial",
+      "part": 1,
+      "feature": "left-bar",
+      "color": "#c761b8"
+    },
+    {
+      "id": "medial.part1.right-upper-bar",
+      "index": 14,
+      "label": "중성 첫째 구성 자모 · 오른쪽 위 짧은 가로",
+      "role": "medial",
+      "part": 1,
+      "feature": "right-upper-bar",
+      "color": "#ec7c49"
+    },
+    {
+      "id": "medial.part1.right-lower-bar",
+      "index": 15,
+      "label": "중성 첫째 구성 자모 · 오른쪽 아래 짧은 가로",
+      "role": "medial",
+      "part": 1,
+      "feature": "right-lower-bar",
+      "color": "#db4e76"
+    },
+    {
+      "id": "medial.part1.left-vertical",
+      "index": 16,
+      "label": "중성 첫째 구성 자모 · 왼쪽 짧은 세로",
+      "role": "medial",
+      "part": 1,
+      "feature": "left-vertical",
+      "color": "#74b95d"
+    },
+    {
+      "id": "medial.part1.right-vertical",
+      "index": 17,
+      "label": "중성 첫째 구성 자모 · 오른쪽 짧은 세로",
+      "role": "medial",
+      "part": 1,
+      "feature": "right-vertical",
+      "color": "#18b4a8"
+    },
+    {
+      "id": "medial.part2.left-bar",
+      "index": 18,
+      "label": "중성 둘째 구성 자모 · 왼쪽 짧은 가로",
+      "role": "medial",
+      "part": 2,
+      "feature": "left-bar",
+      "color": "#dc9641"
+    },
+    {
+      "id": "final.part1.added-bar",
+      "index": 19,
+      "label": "종성 첫째 구성 자모 · 추가 가로획",
+      "role": "final",
+      "part": 1,
+      "feature": "added-bar",
+      "color": "#35b4d0"
+    }
+  ],
+  "paintPolicy": {
+    "id": "continuous-stem-over-branch",
+    "scope": "within-original-source-layer",
+    "rule": "Paint short connecting branches before the continuous supporting stroke. For ㅗ the supporting stroke is horizontal; for ㅏ/ㅕ it is vertical. Keep both verticals continuous in ㅐ/ㅙ and the main body continuous in ㅋ.",
+    "geometry": "Retain the official static font's original glyph outlines and metrics. Use source contours only as semantic masks, clipped to the official filled outline, with source-layer priority and internal overlaps preserved.",
+    "opacity": "Opaque palettes are assumed for junction ownership; transparent colors may reveal overlapping contours underneath."
+  },
+  "colorPolicy": {
+    "fontDefault": "#000000",
+    "selectedPalette": "css-only"
+  },
+  "counts": {
+    "characters": 11223,
+    "modernSyllables": 11172,
+    "compatibilityJamo": 51,
+    "slots": 20,
+    "weights": 9
+  },
+  "license": {
+    "spdx": "OFL-1.1",
+    "file": "LICENSE",
+    "sha256": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04"
+  },
+  "files": {
+    "fonts/hangul-palette-thin.woff2": {
+      "bytes": 2440672,
+      "sha256": "61b0dacc1761fd33a2e6e44fcc358db673400e12b971b412906dbff16f20a0c8"
+    },
+    "fonts/hangul-palette-extra-light.woff2": {
+      "bytes": 2566304,
+      "sha256": "cb9bed230c15008b555a992a7d2aec1d31398278cb0c95605532dcc23a6aa014"
+    },
+    "fonts/hangul-palette-light.woff2": {
+      "bytes": 2669892,
+      "sha256": "6a6d53e368c186b0944444f357d9ef94126f5ff586ccb8ea0d3c6f7beb2cbb9f"
+    },
+    "fonts/hangul-palette-regular.woff2": {
+      "bytes": 2709796,
+      "sha256": "4af3e649c21e360d2c868e11339eaceb437c1416f753e92f9f986e54b2ebecf1"
+    },
+    "fonts/hangul-palette-medium.woff2": {
+      "bytes": 2949088,
+      "sha256": "bb0b506420a544e1b700f327a778a18709aac422be0cdc307215ad8ff6c635fc"
+    },
+    "fonts/hangul-palette-semi-bold.woff2": {
+      "bytes": 3029988,
+      "sha256": "9897fa7635654a52fe68a5feb44fa02814f3f3ca65b883ad2fcfc01ff5029a1d"
+    },
+    "fonts/hangul-palette-bold.woff2": {
+      "bytes": 3109932,
+      "sha256": "be35419932d01df921ed6ba0501e486131293b7d906ced2106d4ab17398f0cde"
+    },
+    "fonts/hangul-palette-extra-bold.woff2": {
+      "bytes": 3194192,
+      "sha256": "c13765d887cb7bdce106cd7c7ef998c741315e1069eca01b4418fc862fc64017"
+    },
+    "fonts/hangul-palette-black.woff2": {
+      "bytes": 3228232,
+      "sha256": "bb2c4318d36385d6e79603426b70323f2864dccd6a87b4470f3f5cd4b902bfc7"
+    },
+    "css/hangul-palette.css": {
+      "bytes": 4924,
+      "sha256": "b43f615e5e0bd2221aac39cdef1c082b6ba18c1497fff6e5d1df468aca27673e"
+    },
+    "metadata/validation.json": {
+      "bytes": 25699,
+      "sha256": "4255ea3559fb7762be1315cf9c3540c55190e94bbb4dd2373d5c15b90b39f226"
+    },
+    "LICENSE": {
+      "bytes": 4418,
+      "sha256": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04"
+    },
+    "NOTICE": {
+      "bytes": 267,
+      "sha256": "af20fec66cea8ce3e31ce91b0960a8d8398a399141228f812d5a1b8a8da0357c"
+    }
+  },
+  "toolchain": {
+    "python": "3.14.5",
+    "fontTools": "4.67.0",
+    "brotli": "1.2.1",
+    "pathops": "0.9.2"
+  },
+  "verification": {
+    "structural": true,
+    "decodedOutlines": true
+  },
+  "limits": [
+    "Semantic colors cover modern Hangul syllables and compatibility jamo; 51 original halfwidth Hangul aliases share the colored jamo glyphs. Latin, digits and punctuation retain ordinary foreground color. Supported static weights: 100 through 900 in steps of 100.",
+    "Original glyph data and placement metrics are preserved; color rasterization is not guaranteed pixel-identical to monochrome rendering.",
+    "Opaque colors are assumed for continuous-stroke junction ownership."
+  ],
+  "version": "1.0.0",
+  "provenance": {
+    "studio": {
+      "name": "hangul-palette-studio",
+      "version": "1.0.0",
+      "revision": "5c784feb686892d30934de8270bf675589fd1eff",
+      "sourceSha256": "68da27909cfa2e63b2d27c31b20b4c0391a08d7df78b5335b6aeb515d7fbb47e",
+      "files": {
+        "bin/extract.ts": "f0b7cf0b92b40f41cb0aea02473f568a75611d6d6eb4a4261f42ff6288bec1fd",
+        "bin/release.ts": "70b5cdc5940d8790fe8a62838a83d8621491dc0666c050ae6355a16bb78df6ec",
+        "bin/serve.ts": "a0c1b6af041fbb5875e0456d6410ef43ebc854b6e79c13744a89e3f1c582495f",
+        "bin/setup-font.ts": "0773f8963f67f3245656506bc17f98446491489949c9f3258bd5527ebb26a306",
+        "bun.lock": "95c66a7f3cff8d64b093fab36da8b0b767b5939498a6910a589aaae05e36bbb3",
+        "package.json": "b1c46aa058dbf607942b39e3547e2424ab53e49ea2e284e81fcb00a6f6c3e4de",
+        "src/font/build.ts": "296e6352ff2759f68a794b443a19310e330e626d40b3101765c399934a68884e",
+        "src/font/compiler/bridge.ts": "d209186894819258b9316c204f04964432cc18713db3f6a0c2d449bf56a980cc",
+        "src/font/compiler/contract.json": "8f3bdea69a52dc59bfdb8a5eca6b57011ba8fa21760c789350e03a5676105776",
+        "src/font/compiler/export.py": "4c173534838adac3e60cc6eb0ef2943847f4622aeaaa9c3e57dd19a3026031f1",
+        "src/font/compiler/official-sources.json": "2eb694ec8f5248c83b4e5d5d64c07cfae9c559acff8ed025e5dc2c8c1176f4e3",
+        "src/font/compiler/official.py": "64ac57adb2f9a8bc82ddfcf0a3c6a3f581bb0b370e90e94524b81a8faa9aef7c",
+        "src/font/compiler/regions.py": "dc11295a125decffd0658d246771987ecc26c196a85990a6639fb6d46f4cc55d",
+        "src/font/compiler/repackage.py": "3fcb66d960eb7267199217245e35b3a2c1c3a97a070c9e756c633230c6e9c084",
+        "src/font/compiler/requirements.txt": "0b711db01e986ada6cc3d4557fff0f62a3ffad601a53663cea604a2a748495ff",
+        "src/font/compiler/weights.py": "37f01dc4824ded06493ce861541afc1ff3af62b3915af0f6f2ccc5d4f34aa141",
+        "src/font/inputs.ts": "b45765988d0de0b302e6b64da3cd2d79cd73fbdf11cde8d8dfc76045f365c3c6",
+        "src/font/palette.ts": "c4035acac1bb688c797fc9e945393875170ba3ac72e8b5344b763d08f5d4d142",
+        "src/font/source/document.ts": "a00306f3f40c4ed6e24559af4e3c9f7915043c8aa2599ea8347b82fbc5be140b",
+        "src/font/source/extraction.ts": "3d0893726e46a182bb09ad1f9f02ac6de7c67f14d4aa9b9d19bc4132b6f7f5b6",
+        "src/font/source/hangul.ts": "71b80dbcb8da6ec74f0d2e64c2541e2cd796b81fa61f62ba298b529b4a19f1f2",
+        "src/font/source/parser.ts": "9e208ad756e536d393e7c29535b1af04a4c89aa4aac0b6e1cbd5dce2aacbf452",
+        "src/font/source/pretendard.ts": "c6bfe437045dafe8b920f0fe82edaf665cf4e66139328bac3ee4e747c7fe3884",
+        "src/font/source/regions.ts": "ae22d459a7d988a12ee9ee781d33b5a4f4c74f0c04211d218a5736517bf68372",
+        "src/font/source/types.ts": "504abc2f8c08f7c9ac38f8f2133caea0c2e70ea3cde262a3e99686fbb141a748",
+        "src/font/source/validation.ts": "d08b63f9203d7fc72e49af7e4187b86953ba663813571442ead432d9c795a522",
+        "src/font/weights.ts": "829932039fdb2f6fcdd51d4c7f8eca49cfbd04c376167a6503149ffb5483c5e0",
+        "src/release.ts": "b940dc6fa940d011afe22a0f6131390d5a9459122dd162a5270e0f6b0e7547ed",
+        "src/shared/atomic-file.ts": "3c19c907d59967fdd1d0f3e66f33c7a592e745cb36854fb0590e364e8e299ea3",
+        "src/studio/client/browser.ts": "4a82c1e3e471fbbd9d154da486bab547d4ad43c002cc57c26611f53292ea462e",
+        "src/studio/client/fonts.ts": "2180c76061e88402eabfcb59bb9239b332ed39d2d7086a150a53404e1bf9baeb",
+        "src/studio/client/index.html": "5c9d568d99c4323749b8a446e8688132758e87d0219f916fd26c01a44a7992f6",
+        "src/studio/client/main.ts": "9a1c22ed8213a1ff6c918876c9b429eae9344fa8b3b3c652c557f49478082fc0",
+        "src/studio/client/palette.ts": "c61d868662affbd7cb3f000a78b7d31921c589e80919c879239964c0441bcbd3",
+        "src/studio/client/preview.ts": "c919196bf4f6e7d60e18a53dfadc6b33e82ee70931577d38f2e668d84b6994e3",
+        "src/studio/client/studio.css": "134d9512dfcd5929ed8b15ff17da4456e7636fe28c89eb989444dbad751d9dc8",
+        "src/studio/client/workspace.ts": "0cd1afb9b201ed7ba38d7aeca335552307e8d4fa0f509e87fc5db349f257c9e9",
+        "src/studio/protocol.ts": "5f8c312e877432e9e90801218df74b953d2b36223ec0b31a5f98a00116a37816",
+        "src/studio/server/fonts.ts": "b35f91e3b1c8f5145df741a0cccfcf3dc423a0ff9af56d05bc6c28acd923536f",
+        "src/studio/server/server.ts": "231076f081f78d9fa7a3dc394249cf3c37786407ddb69997612a9b41b4230787",
+        "src/studio/server/store.ts": "74f64101fc4f3b25c66c013f87d0d82403d341b655f3b219f382b1bc5f1a39b4"
+      }
+    },
+    "inputs": {
+      "dataFileSha256": "dc577572f22d5131572ec346d051de32ba0b8253fd16af48d7c34c9b8f0fad97",
+      "palette": "contract-default"
+    }
+  }
+}

@@ -1,0 +1,185 @@
+/* Font faces */
+@font-face {
+  font-family: "Hangul Palette";
+  src: url("../fonts/hangul-palette-thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hangul Palette";
+  src: url("../fonts/hangul-palette-extra-light.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hangul Palette";
+  src: url("../fonts/hangul-palette-light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hangul Palette";
+  src: url("../fonts/hangul-palette-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hangul Palette";
+  src: url("../fonts/hangul-palette-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hangul Palette";
+  src: url("../fonts/hangul-palette-semi-bold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hangul Palette";
+  src: url("../fonts/hangul-palette-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hangul Palette";
+  src: url("../fonts/hangul-palette-extra-bold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hangul Palette";
+  src: url("../fonts/hangul-palette-black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Default appearance */
+.hangul-palette {
+  font-family: "Hangul Palette", sans-serif;
+  font-synthesis: none;
+  font-palette: normal;
+}
+
+/* Example palettes */
+@font-palette-values --hangul-palette {
+  font-family: "Hangul Palette";
+  base-palette: 0;
+  override-colors:
+    0 #f97373,
+    1 #b870ef,
+    2 #e649a5,
+    3 #f0ab37,
+    4 #27ba8b,
+    5 #eb6838,
+    6 #a3b82d,
+    7 #17a7c2,
+    8 #4f8df0,
+    9 #d9a22a,
+    10 #8a78ec,
+    11 #3dbfa6,
+    12 #e36cbb,
+    13 #c761b8,
+    14 #ec7c49,
+    15 #db4e76,
+    16 #74b95d,
+    17 #18b4a8,
+    18 #dc9641,
+    19 #35b4d0;
+}
+
+@font-palette-values --hangul-palette-gray {
+  font-family: "Hangul Palette";
+  base-palette: 0;
+  override-colors:
+    0 #64748b,
+    1 #64748b,
+    2 #64748b,
+    3 #64748b,
+    4 #64748b,
+    5 #64748b,
+    6 #64748b,
+    7 #64748b,
+    8 #64748b,
+    9 #64748b,
+    10 #64748b,
+    11 #64748b,
+    12 #64748b,
+    13 #64748b,
+    14 #64748b,
+    15 #64748b,
+    16 #64748b,
+    17 #64748b,
+    18 #64748b,
+    19 #64748b;
+}
+
+@font-palette-values --hangul-palette-roles {
+  font-family: "Hangul Palette";
+  base-palette: 0;
+  override-colors:
+    0 #ee7a8a,
+    1 #ee7a8a,
+    2 #ee7a8a,
+    3 #e8b476,
+    4 #e8b476,
+    5 #e8b476,
+    6 #e8b476,
+    7 #e8b476,
+    8 #e8b476,
+    9 #e8b476,
+    10 #e8b476,
+    11 #87cbb5,
+    12 #87cbb5,
+    13 #e8b476,
+    14 #e8b476,
+    15 #e8b476,
+    16 #e8b476,
+    17 #e8b476,
+    18 #e8b476,
+    19 #87cbb5;
+}
+
+/* Palette slots */
+/* 0: initial.part1.body — 초성 첫째 구성 자모 · 본체 */
+/* 1: initial.part2.body — 초성 둘째 구성 자모 · 본체 */
+/* 2: initial.part1.added-bar — 초성 첫째 구성 자모 · 추가 가로획 */
+/* 3: medial.part1.vertical — 중성 첫째 구성 자모 · 세로 */
+/* 4: medial.part1.horizontal — 중성 첫째 구성 자모 · 가로 */
+/* 5: medial.part1.right-bar — 중성 첫째 구성 자모 · 오른쪽 짧은 가로 */
+/* 6: medial.part1.left-upper-bar — 중성 첫째 구성 자모 · 왼쪽 위 짧은 가로 */
+/* 7: medial.part1.left-lower-bar — 중성 첫째 구성 자모 · 왼쪽 아래 짧은 가로 */
+/* 8: medial.part2.vertical — 중성 둘째 구성 자모 · 세로 */
+/* 9: medial.part2.right-bar — 중성 둘째 구성 자모 · 오른쪽 짧은 가로 */
+/* 10: medial.part3.vertical — 중성 셋째 구성 자모 · 세로 */
+/* 11: final.part1.body — 종성 첫째 구성 자모 · 본체 */
+/* 12: final.part2.body — 종성 둘째 구성 자모 · 본체 */
+/* 13: medial.part1.left-bar — 중성 첫째 구성 자모 · 왼쪽 짧은 가로 */
+/* 14: medial.part1.right-upper-bar — 중성 첫째 구성 자모 · 오른쪽 위 짧은 가로 */
+/* 15: medial.part1.right-lower-bar — 중성 첫째 구성 자모 · 오른쪽 아래 짧은 가로 */
+/* 16: medial.part1.left-vertical — 중성 첫째 구성 자모 · 왼쪽 짧은 세로 */
+/* 17: medial.part1.right-vertical — 중성 첫째 구성 자모 · 오른쪽 짧은 세로 */
+/* 18: medial.part2.left-bar — 중성 둘째 구성 자모 · 왼쪽 짧은 가로 */
+/* 19: final.part1.added-bar — 종성 첫째 구성 자모 · 추가 가로획 */
+
+/* Add this class to use the example colors. */
+.hangul-palette--colored {
+  font-palette: --hangul-palette;
+}

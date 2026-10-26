@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hangul Palette — 전체 글자</title>
+  <meta name="description" content="Hangul Palette의 한글 11,223자를 아홉 가지 굵기와 다양한 팔레트로 살펴보세요.">
+  <meta name="theme-color" content="#f8f7f3">
+  <link rel="stylesheet" href="css/hangul-palette.css">
+  <link rel="stylesheet" href="assets/glyphs.css">
+</head>
+<body>
+  <a class="skip-link" href="#glyph-viewport">글자 목록으로 이동</a>
+  <header class="site-header">
+    <nav class="navigation" aria-label="주요 메뉴">
+      <a class="brand" href="index.html">Hangul Palette<span aria-hidden="true">.</span></a>
+      <div class="navigation-links">
+        <a href="index.html">체험</a>
+        <a href="glyphs" aria-current="page">전체 글자</a>
+        <a href="index.html#usage">다운로드</a>
+        <a class="github-link" href="https://github.com/AlexsanderHam/hangul-palette">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <header class="page-header">
+      <div><p class="eyebrow">전체 글자</p><h1>모든 글자를, 한눈에.</h1><p class="page-description">현대 한글 11,172자와 호환 자모 51자.<br class="mobile-break"> 아홉 가지 굵기로 나란히 살펴보세요.</p></div>
+      <div class="font-loading"><span id="font-state" class="font-state" role="status">폰트 불러오는 중…</span><button id="font-retry" type="button" hidden>새로고침</button></div>
+    </header>
+    <div class="explorer">
+      <aside class="sidebar" aria-label="글자 찾기와 표시 설정">
+        <section class="settings-section">
+          <h2>글자 찾기</h2>
+          <label for="search">글자 또는 유니코드</label>
+          <input id="search" type="search" placeholder="예: 가값밖, U+AC00" autocomplete="off" spellcheck="false" aria-describedby="search-hint">
+          <p class="hint" id="search-hint">여러 글자를 붙여 넣어도 찾을 수 있어요.</p>
+          <label for="scope">문자 범위</label>
+          <select id="scope"><option value="all">전체 · 11,223자</option><option value="syllables">완성형 한글 · 11,172자</option><option value="jamo">호환 자모 · 51자</option></select>
+          <div class="component-filters">
+            <label for="initial">초성<select id="initial"><option value="">전체</option></select></label>
+            <label for="medial">중성<select id="medial"><option value="">전체</option></select></label>
+            <label for="final">받침<select id="final"><option value="">전체</option></select></label>
+          </div>
+          <button id="reset" class="reset-button" type="button">검색·필터 초기화</button>
+        </section>
+        <section class="settings-section">
+          <h2>표시 설정</h2>
+          <label for="palette">색상</label>
+          <select id="palette"><option value="--hangul-palette">세부 영역별 · 20색</option><option value="--hangul-palette-roles">초성·중성·종성</option><option value="normal">기본 검정</option><option value="--hangul-palette-gray">차분한 회색</option></select>
+          <div class="range-label"><label for="size">글자 크기</label><output id="size-value" for="size">36 px</output></div>
+          <input id="size" type="range" min="24" max="80" step="2" value="36">
+          <div class="range-ends" aria-hidden="true"><span>작게</span><span>크게</span></div>
+          <p class="hint">글자를 선택하면 크게 볼 수 있어요.<br>색상은 CSS로 적용되며, 폰트의 기본색은 검정입니다.</p>
+        </section>
+        <p class="sidebar-note">Thin 100 — Black 900<br>배포되는 실제 폰트를 보고 있어요.</p>
+      </aside>
+      <section class="results" aria-label="전체 글자와 굵기 비교">
+        <div class="results-bar">
+          <p><strong id="result-count">11,223</strong><span>자</span><span class="result-divider" aria-hidden="true">/</span><span>9개 굵기</span></p>
+          <div class="jump-buttons"><button id="first" type="button">처음</button><button id="last" type="button">마지막</button></div>
+        </div>
+        <div id="glyph-viewport" class="glyph-viewport" tabindex="0" aria-label="글자 비교표" aria-describedby="table-hint">
+          <table id="glyph-table" aria-rowcount="11224" aria-colcount="10">
+            <caption class="visually-hidden">한글 11,223자의 아홉 가지 굵기 비교. 글자 찾기는 검색과 자모 필터를 이용하세요.</caption>
+            <colgroup><col class="character-column"><col span="9"></colgroup>
+            <thead><tr aria-rowindex="1"><th scope="col">글자 <span>선택하여 확대</span></th><th scope="col">Thin<span>100</span></th><th scope="col">ExtraLight<span>200</span></th><th scope="col">Light<span>300</span></th><th scope="col">Regular<span>400</span></th><th scope="col">Medium<span>500</span></th><th scope="col">SemiBold<span>600</span></th><th scope="col">Bold<span>700</span></th><th scope="col">ExtraBold<span>800</span></th><th scope="col">Black<span>900</span></th></tr></thead>
+            <tbody id="glyph-rows"></tbody>
+          </table>
+          <div id="empty-state" class="empty-state" hidden><h2>일치하는 글자가 없어요.</h2><p>현대 한글이나 ㄱ–ㅣ를 입력하거나, 필터를 초기화해 보세요.</p><button id="empty-reset" type="button">검색·필터 초기화</button></div>
+        </div>
+        <div class="results-foot"><span id="visible-range">목록 준비 중…</span><span id="table-hint">스크롤로 탐색 · 글자를 선택해 확대 · ↑ ↓ 키로 이동</span></div>
+        <p id="search-status" class="visually-hidden" role="status" aria-live="polite"></p>
+      </section>
+    </div>
+    <footer><span>Hangul Palette <span class="footer-divider" aria-hidden="true">/</span> Based on Pretendard v1.3.9</span><div><a href="metadata/manifest.json">배포 정보</a><a href="LICENSE">라이선스</a><a href="NOTICE">출처</a></div></footer>
+    <noscript><p class="no-script">전체 글자 목록에는 JavaScript가 필요합니다. <a href="index.html">문장 미리보기</a>에서는 기본 표본을 볼 수 있습니다.</p></noscript>
+  </main>
+  <dialog id="glyph-detail" aria-labelledby="detail-title" aria-describedby="detail-description">
+    <div class="detail-header"><div><p class="eyebrow">아홉 가지 굵기</p><h2 id="detail-title">글자 확대</h2><p id="detail-description"></p></div><button id="close-detail" type="button" aria-label="확대 창 닫기" autofocus>닫기 <span aria-hidden="true">×</span></button></div>
+    <div id="detail-weights" class="detail-weights"></div>
+    <div class="detail-footer"><label><input id="detail-mono" type="checkbox">검정으로 보기</label><div><button id="previous-glyph" type="button">← 이전 글자</button><button id="next-glyph" type="button">다음 글자 →</button></div></div>
+  </dialog>
+  <script type="module" src="assets/glyphs.js"></script>
+</body>
+</html>

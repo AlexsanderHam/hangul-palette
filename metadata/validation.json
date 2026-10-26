@@ -1,0 +1,776 @@
+{
+  "passed": true,
+  "schemaVersion": 1,
+  "weights": {
+    "black": {
+      "allRegionAndFallbackOutlinesDecoded": true,
+      "characters": 11223,
+      "checks": {
+        "compoundHoleOccurrences": 7131,
+        "decodedOfficialFilledOutlines": 11223,
+        "decodedOriginalGlyphs": 14716,
+        "decodedRegionOutlines": 64155,
+        "independentAllocationOwnershipPoints": 2178,
+        "independentConsonantConstituents": 8143,
+        "independentFeatureOrientations": 34035,
+        "independentFilledPointCharacters": 11223,
+        "independentFilledPoints": 139367,
+        "junctionConstraints": 18044,
+        "semanticGlyphs": 11223,
+        "sourcePaintOrders": 11223
+      },
+      "clippingGuardSha256": "7e700da9e3281396b8b0059eb22929c26c97d274f2672f0a68932f3835849925",
+      "clippingRetries": [],
+      "compoundHolesPreserved": true,
+      "decodedCoordinateTolerance": 0.0009765625,
+      "decodedGeometryProof": "matching-cubic-topology-and-bounded-control-points",
+      "defaultPaletteBlack": true,
+      "encodedCOLRLayers": 64155,
+      "fontGlyphs": 54862,
+      "fontSha256": "bb2c4318d36385d6e79603426b70323f2864dccd6a87b4470f3f5cd4b902bfc7",
+      "maskExpansionFallbacks": [],
+      "maskExpansionStrategies": {
+        "normalized-stroke": 11223
+      },
+      "maximumDecodedCoordinateError": 0.0002848307292424579,
+      "maximumPreEncodeXorArea": 0,
+      "maximumSemanticMaskGuardUnits": 3,
+      "officialFillAllocations": [
+        {
+          "adjacentFilledArea": 68.34822473675013,
+          "area": 1290.7364654541016,
+          "bounds": [
+            888.3077392578125,
+            846.50634765625,
+            957.4869995117188,
+            881.8318481445312
+          ],
+          "char": "셱",
+          "id": "black-syek-lower-vowel-corner",
+          "maximumOwnerDistanceUnits": 40,
+          "reason": "The official merged outline fills the inner corner next to source contour 3; follow its explicit region and retain the curved initial consonant boundary.",
+          "slot": 7,
+          "slotId": "medial.part1.left-lower-bar",
+          "sourceContourRef": 3,
+          "sourceGeometrySha256": "81bc84a458294d1ef26a457503c18061a7b829deb8672a1bbfbb4a1248380091",
+          "weight": "black"
+        }
+      ],
+      "officialSha256": "94628b0bcea8936b6e5c30d98d685eb9bbaffb0fe2ed255542ecc656c248e021",
+      "originalCmapCharacters": 14336,
+      "originalGlyphs": 14716,
+      "originalPreservation": {
+        "CFFFontBBox": true,
+        "FD0FontMatrix": true,
+        "charstrings": true,
+        "cmapBytes": true,
+        "fdSelectOriginal": true,
+        "globalSubrs": true,
+        "glyphIdOrder": true,
+        "headFontBBox": true,
+        "hheaMetrics": true,
+        "hmtxOriginalRecords": true,
+        "localSubrsFD0": true,
+        "order": true,
+        "os2Metrics": true,
+        "privateFD0Bytes": true,
+        "privateFD0Values": true,
+        "unitsPerEm": true,
+        "vheaMetrics": true,
+        "vmtxOriginalRecords": true
+      },
+      "partitionReference": "official-static-otf-outline",
+      "passed": true,
+      "schemaVersion": 1,
+      "semanticMaskGuardCounts": {
+        "3.0": 11223
+      },
+      "semanticMaskGuardUnits": 3,
+      "sourceLayerOrderPreserved": true,
+      "weight": 900,
+      "weightName": "Black"
+    },
+    "bold": {
+      "allRegionAndFallbackOutlinesDecoded": true,
+      "characters": 11223,
+      "checks": {
+        "compoundHoleOccurrences": 7131,
+        "decodedOfficialFilledOutlines": 11223,
+        "decodedOriginalGlyphs": 14716,
+        "decodedRegionOutlines": 64155,
+        "independentConsonantConstituents": 8143,
+        "independentFeatureOrientations": 34035,
+        "independentFilledPointCharacters": 11223,
+        "independentFilledPoints": 139367,
+        "junctionConstraints": 18044,
+        "semanticGlyphs": 11223,
+        "sourcePaintOrders": 11223
+      },
+      "clippingGuardSha256": "e564e718829f32b11829c716c6da9aaa6f24a9bab6adc241500486188239e08c",
+      "clippingRetries": [
+        {
+          "char": "엥",
+          "guardUnits": 3.125
+        },
+        {
+          "char": "줳",
+          "guardUnits": 3.125
+        }
+      ],
+      "compoundHolesPreserved": true,
+      "decodedCoordinateTolerance": 0.0009765625,
+      "decodedGeometryProof": "matching-cubic-topology-and-bounded-control-points",
+      "defaultPaletteBlack": true,
+      "encodedCOLRLayers": 64155,
+      "fontGlyphs": 54948,
+      "fontSha256": "be35419932d01df921ed6ba0501e486131293b7d906ced2106d4ab17398f0cde",
+      "maskExpansionFallbacks": [
+        {
+          "char": "뭫",
+          "guardUnits": 3,
+          "strategy": "translated-mask-copies"
+        },
+        {
+          "char": "붷",
+          "guardUnits": 3,
+          "strategy": "translated-mask-copies"
+        },
+        {
+          "char": "쉏",
+          "guardUnits": 3,
+          "strategy": "translated-mask-copies"
+        },
+        {
+          "char": "엥",
+          "guardUnits": 3.125,
+          "strategy": "translated-mask-copies"
+        },
+        {
+          "char": "웧",
+          "guardUnits": 3,
+          "strategy": "translated-mask-copies"
+        },
+        {
+          "char": "줳",
+          "guardUnits": 3.125,
+          "strategy": "translated-mask-copies"
+        },
+        {
+          "char": "퀗",
+          "guardUnits": 3,
+          "strategy": "translated-mask-copies"
+        },
+        {
+          "char": "풯",
+          "guardUnits": 3,
+          "strategy": "translated-mask-copies"
+        }
+      ],
+      "maskExpansionStrategies": {
+        "normalized-stroke": 11215,
+        "translated-mask-copies": 8
+      },
+      "maximumDecodedCoordinateError": 0.000244140625,
+      "maximumPreEncodeXorArea": 0.005518489962923923,
+      "maximumSemanticMaskGuardUnits": 3.125,
+      "officialFillAllocations": [],
+      "officialSha256": "2e91915fab54df71cc9598ebf608b2bdb54c6fe3c066ac61dff0bc44fca71cc7",
+      "originalCmapCharacters": 14336,
+      "originalGlyphs": 14716,
+      "originalPreservation": {
+        "CFFFontBBox": true,
+        "FD0FontMatrix": true,
+        "charstrings": true,
+        "cmapBytes": true,
+        "fdSelectOriginal": true,
+        "globalSubrs": true,
+        "glyphIdOrder": true,
+        "headFontBBox": true,
+        "hheaMetrics": true,
+        "hmtxOriginalRecords": true,
+        "localSubrsFD0": true,
+        "order": true,
+        "os2Metrics": true,
+        "privateFD0Bytes": true,
+        "privateFD0Values": true,
+        "unitsPerEm": true,
+        "vheaMetrics": true,
+        "vmtxOriginalRecords": true
+      },
+      "partitionReference": "official-static-otf-outline",
+      "passed": true,
+      "schemaVersion": 1,
+      "semanticMaskGuardCounts": {
+        "3.0": 11221,
+        "3.125": 2
+      },
+      "semanticMaskGuardUnits": 3,
+      "sourceLayerOrderPreserved": true,
+      "weight": 700,
+      "weightName": "Bold"
+    },
+    "extra-bold": {
+      "allRegionAndFallbackOutlinesDecoded": true,
+      "characters": 11223,
+      "checks": {
+        "compoundHoleOccurrences": 7131,
+        "decodedOfficialFilledOutlines": 11223,
+        "decodedOriginalGlyphs": 14716,
+        "decodedRegionOutlines": 64155,
+        "independentConsonantConstituents": 8143,
+        "independentFeatureOrientations": 34035,
+        "independentFilledPointCharacters": 11223,
+        "independentFilledPoints": 139367,
+        "junctionConstraints": 18044,
+        "semanticGlyphs": 11223,
+        "sourcePaintOrders": 11223
+      },
+      "clippingGuardSha256": "6201a5c720de7c70225e0fcd386ecde25775b80033a8be7dec10bb13eeb31cd8",
+      "clippingRetries": [
+        {
+          "char": "쬎",
+          "guardUnits": 3.125
+        }
+      ],
+      "compoundHolesPreserved": true,
+      "decodedCoordinateTolerance": 0.0009765625,
+      "decodedGeometryProof": "matching-cubic-topology-and-bounded-control-points",
+      "defaultPaletteBlack": true,
+      "encodedCOLRLayers": 64155,
+      "fontGlyphs": 54915,
+      "fontSha256": "c13765d887cb7bdce106cd7c7ef998c741315e1069eca01b4418fc862fc64017",
+      "maskExpansionFallbacks": [],
+      "maskExpansionStrategies": {
+        "normalized-stroke": 11223
+      },
+      "maximumDecodedCoordinateError": 0.00030517578125,
+      "maximumPreEncodeXorArea": 0.03795237094163895,
+      "maximumSemanticMaskGuardUnits": 3.125,
+      "officialFillAllocations": [],
+      "officialSha256": "c35fe941b7568d52a96010561540e47f9d3948dfde66ba25bc1908233e0a40cd",
+      "originalCmapCharacters": 14336,
+      "originalGlyphs": 14716,
+      "originalPreservation": {
+        "CFFFontBBox": true,
+        "FD0FontMatrix": true,
+        "charstrings": true,
+        "cmapBytes": true,
+        "fdSelectOriginal": true,
+        "globalSubrs": true,
+        "glyphIdOrder": true,
+        "headFontBBox": true,
+        "hheaMetrics": true,
+        "hmtxOriginalRecords": true,
+        "localSubrsFD0": true,
+        "order": true,
+        "os2Metrics": true,
+        "privateFD0Bytes": true,
+        "privateFD0Values": true,
+        "unitsPerEm": true,
+        "vheaMetrics": true,
+        "vmtxOriginalRecords": true
+      },
+      "partitionReference": "official-static-otf-outline",
+      "passed": true,
+      "schemaVersion": 1,
+      "semanticMaskGuardCounts": {
+        "3.0": 11222,
+        "3.125": 1
+      },
+      "semanticMaskGuardUnits": 3,
+      "sourceLayerOrderPreserved": true,
+      "weight": 800,
+      "weightName": "ExtraBold"
+    },
+    "extra-light": {
+      "allRegionAndFallbackOutlinesDecoded": true,
+      "characters": 11223,
+      "checks": {
+        "compoundHoleOccurrences": 7131,
+        "decodedOfficialFilledOutlines": 11223,
+        "decodedOriginalGlyphs": 14716,
+        "decodedRegionOutlines": 64155,
+        "independentConsonantConstituents": 8143,
+        "independentFeatureOrientations": 34035,
+        "independentFilledPointCharacters": 11223,
+        "independentFilledPoints": 139367,
+        "junctionConstraints": 18044,
+        "semanticGlyphs": 11223,
+        "sourcePaintOrders": 11223
+      },
+      "clippingGuardSha256": "7e700da9e3281396b8b0059eb22929c26c97d274f2672f0a68932f3835849925",
+      "clippingRetries": [],
+      "compoundHolesPreserved": true,
+      "decodedCoordinateTolerance": 0.0009765625,
+      "decodedGeometryProof": "matching-cubic-topology-and-bounded-control-points",
+      "defaultPaletteBlack": true,
+      "encodedCOLRLayers": 64155,
+      "fontGlyphs": 53152,
+      "fontSha256": "cb9bed230c15008b555a992a7d2aec1d31398278cb0c95605532dcc23a6aa014",
+      "maskExpansionFallbacks": [],
+      "maskExpansionStrategies": {
+        "normalized-stroke": 11223
+      },
+      "maximumDecodedCoordinateError": 0.0002492268880018855,
+      "maximumPreEncodeXorArea": 0,
+      "maximumSemanticMaskGuardUnits": 3,
+      "officialFillAllocations": [],
+      "officialSha256": "e2837078f57079de2742e83c394a70b8a80b9662bc8ff4e96e7b791d6bd7cdbb",
+      "originalCmapCharacters": 14336,
+      "originalGlyphs": 14716,
+      "originalPreservation": {
+        "CFFFontBBox": true,
+        "FD0FontMatrix": true,
+        "charstrings": true,
+        "cmapBytes": true,
+        "fdSelectOriginal": true,
+        "globalSubrs": true,
+        "glyphIdOrder": true,
+        "headFontBBox": true,
+        "hheaMetrics": true,
+        "hmtxOriginalRecords": true,
+        "localSubrsFD0": true,
+        "order": true,
+        "os2Metrics": true,
+        "privateFD0Bytes": true,
+        "privateFD0Values": true,
+        "unitsPerEm": true,
+        "vheaMetrics": true,
+        "vmtxOriginalRecords": true
+      },
+      "partitionReference": "official-static-otf-outline",
+      "passed": true,
+      "schemaVersion": 1,
+      "semanticMaskGuardCounts": {
+        "3.0": 11223
+      },
+      "semanticMaskGuardUnits": 3,
+      "sourceLayerOrderPreserved": true,
+      "weight": 200,
+      "weightName": "ExtraLight"
+    },
+    "light": {
+      "allRegionAndFallbackOutlinesDecoded": true,
+      "characters": 11223,
+      "checks": {
+        "compoundHoleOccurrences": 7131,
+        "decodedOfficialFilledOutlines": 11223,
+        "decodedOriginalGlyphs": 14716,
+        "decodedRegionOutlines": 64155,
+        "independentConsonantConstituents": 8143,
+        "independentFeatureOrientations": 34035,
+        "independentFilledPointCharacters": 11223,
+        "independentFilledPoints": 139367,
+        "junctionConstraints": 18044,
+        "semanticGlyphs": 11223,
+        "sourcePaintOrders": 11223
+      },
+      "clippingGuardSha256": "7e700da9e3281396b8b0059eb22929c26c97d274f2672f0a68932f3835849925",
+      "clippingRetries": [],
+      "compoundHolesPreserved": true,
+      "decodedCoordinateTolerance": 0.0009765625,
+      "decodedGeometryProof": "matching-cubic-topology-and-bounded-control-points",
+      "defaultPaletteBlack": true,
+      "encodedCOLRLayers": 64155,
+      "fontGlyphs": 54050,
+      "fontSha256": "6a6d53e368c186b0944444f357d9ef94126f5ff586ccb8ea0d3c6f7beb2cbb9f",
+      "maskExpansionFallbacks": [],
+      "maskExpansionStrategies": {
+        "normalized-stroke": 11223
+      },
+      "maximumDecodedCoordinateError": 0.000244140625,
+      "maximumPreEncodeXorArea": 0,
+      "maximumSemanticMaskGuardUnits": 3,
+      "officialFillAllocations": [],
+      "officialSha256": "51418ee96ef96e9059db88d7da82f24fada1f4aca70d5157c878ea6b460dd343",
+      "originalCmapCharacters": 14336,
+      "originalGlyphs": 14716,
+      "originalPreservation": {
+        "CFFFontBBox": true,
+        "FD0FontMatrix": true,
+        "charstrings": true,
+        "cmapBytes": true,
+        "fdSelectOriginal": true,
+        "globalSubrs": true,
+        "glyphIdOrder": true,
+        "headFontBBox": true,
+        "hheaMetrics": true,
+        "hmtxOriginalRecords": true,
+        "localSubrsFD0": true,
+        "order": true,
+        "os2Metrics": true,
+        "privateFD0Bytes": true,
+        "privateFD0Values": true,
+        "unitsPerEm": true,
+        "vheaMetrics": true,
+        "vmtxOriginalRecords": true
+      },
+      "partitionReference": "official-static-otf-outline",
+      "passed": true,
+      "schemaVersion": 1,
+      "semanticMaskGuardCounts": {
+        "3.0": 11223
+      },
+      "semanticMaskGuardUnits": 3,
+      "sourceLayerOrderPreserved": true,
+      "weight": 300,
+      "weightName": "Light"
+    },
+    "medium": {
+      "allRegionAndFallbackOutlinesDecoded": true,
+      "characters": 11223,
+      "checks": {
+        "compoundHoleOccurrences": 7131,
+        "decodedOfficialFilledOutlines": 11223,
+        "decodedOriginalGlyphs": 14716,
+        "decodedRegionOutlines": 64155,
+        "independentConsonantConstituents": 8143,
+        "independentFeatureOrientations": 34035,
+        "independentFilledPointCharacters": 11223,
+        "independentFilledPoints": 139367,
+        "junctionConstraints": 18044,
+        "semanticGlyphs": 11223,
+        "sourcePaintOrders": 11223
+      },
+      "clippingGuardSha256": "b3bc7a2db9a9350e2f730373ac7b2610b3089a02855ff03820d15db0090eea95",
+      "clippingRetries": [
+        {
+          "char": "뀠",
+          "guardUnits": 3.125
+        },
+        {
+          "char": "듰",
+          "guardUnits": 3.125
+        },
+        {
+          "char": "룠",
+          "guardUnits": 3.125
+        },
+        {
+          "char": "믔",
+          "guardUnits": 3.125
+        },
+        {
+          "char": "빘",
+          "guardUnits": 3.25
+        },
+        {
+          "char": "삤",
+          "guardUnits": 3.25
+        },
+        {
+          "char": "숐",
+          "guardUnits": 3.125
+        },
+        {
+          "char": "읐",
+          "guardUnits": 3.125
+        },
+        {
+          "char": "즜",
+          "guardUnits": 3.125
+        }
+      ],
+      "compoundHolesPreserved": true,
+      "decodedCoordinateTolerance": 0.0009765625,
+      "decodedGeometryProof": "matching-cubic-topology-and-bounded-control-points",
+      "defaultPaletteBlack": true,
+      "encodedCOLRLayers": 64155,
+      "fontGlyphs": 54574,
+      "fontSha256": "bb0b506420a544e1b700f327a778a18709aac422be0cdc307215ad8ff6c635fc",
+      "maskExpansionFallbacks": [],
+      "maskExpansionStrategies": {
+        "normalized-stroke": 11223
+      },
+      "maximumDecodedCoordinateError": 0.000244140625,
+      "maximumPreEncodeXorArea": 0.0000042926147670874215,
+      "maximumSemanticMaskGuardUnits": 3.25,
+      "officialFillAllocations": [],
+      "officialSha256": "d39e50e4bb52b4993b6a4eeb821a171254745bd824446af01e1f616b89fface0",
+      "originalCmapCharacters": 14336,
+      "originalGlyphs": 14716,
+      "originalPreservation": {
+        "CFFFontBBox": true,
+        "FD0FontMatrix": true,
+        "charstrings": true,
+        "cmapBytes": true,
+        "fdSelectOriginal": true,
+        "globalSubrs": true,
+        "glyphIdOrder": true,
+        "headFontBBox": true,
+        "hheaMetrics": true,
+        "hmtxOriginalRecords": true,
+        "localSubrsFD0": true,
+        "order": true,
+        "os2Metrics": true,
+        "privateFD0Bytes": true,
+        "privateFD0Values": true,
+        "unitsPerEm": true,
+        "vheaMetrics": true,
+        "vmtxOriginalRecords": true
+      },
+      "partitionReference": "official-static-otf-outline",
+      "passed": true,
+      "schemaVersion": 1,
+      "semanticMaskGuardCounts": {
+        "3.0": 11214,
+        "3.125": 7,
+        "3.25": 2
+      },
+      "semanticMaskGuardUnits": 3,
+      "sourceLayerOrderPreserved": true,
+      "weight": 500,
+      "weightName": "Medium"
+    },
+    "regular": {
+      "allRegionAndFallbackOutlinesDecoded": true,
+      "characters": 11223,
+      "checks": {
+        "compoundHoleOccurrences": 7131,
+        "decodedOfficialFilledOutlines": 11223,
+        "decodedOriginalGlyphs": 14716,
+        "decodedRegionOutlines": 64155,
+        "independentConsonantConstituents": 8143,
+        "independentFeatureOrientations": 34035,
+        "independentFilledPointCharacters": 11223,
+        "independentFilledPoints": 139367,
+        "junctionConstraints": 18044,
+        "semanticGlyphs": 11223,
+        "sourcePaintOrders": 11223
+      },
+      "clippingGuardSha256": "93dc35b1271da1b21a486adc57cacaab45f145394d51a6353e99de1f0a18a0cc",
+      "clippingRetries": [
+        {
+          "char": "괬",
+          "guardUnits": 3.125
+        },
+        {
+          "char": "딨",
+          "guardUnits": 3.125
+        },
+        {
+          "char": "뼜",
+          "guardUnits": 3.125
+        },
+        {
+          "char": "쌀",
+          "guardUnits": 3.125
+        },
+        {
+          "char": "썰",
+          "guardUnits": 3.125
+        },
+        {
+          "char": "쐆",
+          "guardUnits": 3.125
+        }
+      ],
+      "compoundHolesPreserved": true,
+      "decodedCoordinateTolerance": 0.0009765625,
+      "decodedGeometryProof": "matching-cubic-topology-and-bounded-control-points",
+      "defaultPaletteBlack": true,
+      "encodedCOLRLayers": 64155,
+      "fontGlyphs": 53934,
+      "fontSha256": "4af3e649c21e360d2c868e11339eaceb437c1416f753e92f9f986e54b2ebecf1",
+      "maskExpansionFallbacks": [],
+      "maskExpansionStrategies": {
+        "normalized-stroke": 11223
+      },
+      "maximumDecodedCoordinateError": 0.00026448567712122895,
+      "maximumPreEncodeXorArea": 0.000010534666671446757,
+      "maximumSemanticMaskGuardUnits": 3.125,
+      "officialFillAllocations": [],
+      "officialSha256": "3ffbacde6ab8411f1d2db54bb9b1f0b3ee2a738932033722cf0388c06aed1c93",
+      "originalCmapCharacters": 14336,
+      "originalGlyphs": 14716,
+      "originalPreservation": {
+        "CFFFontBBox": true,
+        "FD0FontMatrix": true,
+        "charstrings": true,
+        "cmapBytes": true,
+        "fdSelectOriginal": true,
+        "globalSubrs": true,
+        "glyphIdOrder": true,
+        "headFontBBox": true,
+        "hheaMetrics": true,
+        "hmtxOriginalRecords": true,
+        "localSubrsFD0": true,
+        "order": true,
+        "os2Metrics": true,
+        "privateFD0Bytes": true,
+        "privateFD0Values": true,
+        "unitsPerEm": true,
+        "vheaMetrics": true,
+        "vmtxOriginalRecords": true
+      },
+      "partitionReference": "official-static-otf-outline",
+      "passed": true,
+      "schemaVersion": 1,
+      "semanticMaskGuardCounts": {
+        "3.0": 11217,
+        "3.125": 6
+      },
+      "semanticMaskGuardUnits": 3,
+      "sourceLayerOrderPreserved": true,
+      "weight": 400,
+      "weightName": "Regular"
+    },
+    "semi-bold": {
+      "allRegionAndFallbackOutlinesDecoded": true,
+      "characters": 11223,
+      "checks": {
+        "compoundHoleOccurrences": 7131,
+        "decodedOfficialFilledOutlines": 11223,
+        "decodedOriginalGlyphs": 14716,
+        "decodedRegionOutlines": 64155,
+        "independentConsonantConstituents": 8143,
+        "independentFeatureOrientations": 34035,
+        "independentFilledPointCharacters": 11223,
+        "independentFilledPoints": 139367,
+        "junctionConstraints": 18044,
+        "semanticGlyphs": 11223,
+        "sourcePaintOrders": 11223
+      },
+      "clippingGuardSha256": "1fc094a68090bd8fc028a976858f55866e6d5e511074976f8ab577138cbf6da4",
+      "clippingRetries": [
+        {
+          "char": "쐯",
+          "guardUnits": 3.25
+        },
+        {
+          "char": "쐳",
+          "guardUnits": 3.25
+        },
+        {
+          "char": "쑂",
+          "guardUnits": 3.25
+        },
+        {
+          "char": "쵰",
+          "guardUnits": 3.125
+        },
+        {
+          "char": "칐",
+          "guardUnits": 3.125
+        }
+      ],
+      "compoundHolesPreserved": true,
+      "decodedCoordinateTolerance": 0.0009765625,
+      "decodedGeometryProof": "matching-cubic-topology-and-bounded-control-points",
+      "defaultPaletteBlack": true,
+      "encodedCOLRLayers": 64155,
+      "fontGlyphs": 54882,
+      "fontSha256": "9897fa7635654a52fe68a5feb44fa02814f3f3ca65b883ad2fcfc01ff5029a1d",
+      "maskExpansionFallbacks": [],
+      "maskExpansionStrategies": {
+        "normalized-stroke": 11223
+      },
+      "maximumDecodedCoordinateError": 0.00028483072912877105,
+      "maximumPreEncodeXorArea": 0.07310902948188414,
+      "maximumSemanticMaskGuardUnits": 3.25,
+      "officialFillAllocations": [],
+      "officialSha256": "c89bc43027dc7cde5726e96223376f8eec09302b2fc1f8147fd5b57cfc376118",
+      "originalCmapCharacters": 14336,
+      "originalGlyphs": 14716,
+      "originalPreservation": {
+        "CFFFontBBox": true,
+        "FD0FontMatrix": true,
+        "charstrings": true,
+        "cmapBytes": true,
+        "fdSelectOriginal": true,
+        "globalSubrs": true,
+        "glyphIdOrder": true,
+        "headFontBBox": true,
+        "hheaMetrics": true,
+        "hmtxOriginalRecords": true,
+        "localSubrsFD0": true,
+        "order": true,
+        "os2Metrics": true,
+        "privateFD0Bytes": true,
+        "privateFD0Values": true,
+        "unitsPerEm": true,
+        "vheaMetrics": true,
+        "vmtxOriginalRecords": true
+      },
+      "partitionReference": "official-static-otf-outline",
+      "passed": true,
+      "schemaVersion": 1,
+      "semanticMaskGuardCounts": {
+        "3.0": 11218,
+        "3.125": 2,
+        "3.25": 3
+      },
+      "semanticMaskGuardUnits": 3,
+      "sourceLayerOrderPreserved": true,
+      "weight": 600,
+      "weightName": "SemiBold"
+    },
+    "thin": {
+      "allRegionAndFallbackOutlinesDecoded": true,
+      "characters": 11223,
+      "checks": {
+        "compoundHoleOccurrences": 7131,
+        "decodedOfficialFilledOutlines": 11223,
+        "decodedOriginalGlyphs": 14716,
+        "decodedRegionOutlines": 64155,
+        "independentConsonantConstituents": 8143,
+        "independentFeatureOrientations": 34035,
+        "independentFilledPointCharacters": 11223,
+        "independentFilledPoints": 139367,
+        "junctionConstraints": 18044,
+        "semanticGlyphs": 11223,
+        "sourcePaintOrders": 11223
+      },
+      "clippingGuardSha256": "7e700da9e3281396b8b0059eb22929c26c97d274f2672f0a68932f3835849925",
+      "clippingRetries": [],
+      "compoundHolesPreserved": true,
+      "decodedCoordinateTolerance": 0.0009765625,
+      "decodedGeometryProof": "matching-cubic-topology-and-bounded-control-points",
+      "defaultPaletteBlack": true,
+      "encodedCOLRLayers": 64155,
+      "fontGlyphs": 50990,
+      "fontSha256": "61b0dacc1761fd33a2e6e44fcc358db673400e12b971b412906dbff16f20a0c8",
+      "maskExpansionFallbacks": [],
+      "maskExpansionStrategies": {
+        "normalized-stroke": 11223
+      },
+      "maximumDecodedCoordinateError": 0.000244140625,
+      "maximumPreEncodeXorArea": 0,
+      "maximumSemanticMaskGuardUnits": 3,
+      "officialFillAllocations": [],
+      "officialSha256": "635354dcdcc133318be74f9a83cb59d29652c56d463bcd34e20a8cd6e01f3af9",
+      "originalCmapCharacters": 14336,
+      "originalGlyphs": 14716,
+      "originalPreservation": {
+        "CFFFontBBox": true,
+        "FD0FontMatrix": true,
+        "charstrings": true,
+        "cmapBytes": true,
+        "fdSelectOriginal": true,
+        "globalSubrs": true,
+        "glyphIdOrder": true,
+        "headFontBBox": true,
+        "hheaMetrics": true,
+        "hmtxOriginalRecords": true,
+        "localSubrsFD0": true,
+        "order": true,
+        "os2Metrics": true,
+        "privateFD0Bytes": true,
+        "privateFD0Values": true,
+        "unitsPerEm": true,
+        "vheaMetrics": true,
+        "vmtxOriginalRecords": true
+      },
+      "partitionReference": "official-static-otf-outline",
+      "passed": true,
+      "schemaVersion": 1,
+      "semanticMaskGuardCounts": {
+        "3.0": 11223
+      },
+      "semanticMaskGuardUnits": 3,
+      "sourceLayerOrderPreserved": true,
+      "weight": 100,
+      "weightName": "Thin"
+    }
+  }
+}
