@@ -1183,7 +1183,7 @@
     "studio": {
       "name": "hangul-palette-studio",
       "version": "1.0.0",
-      "revision": "5c784feb686892d30934de8270bf675589fd1eff",
+      "revision": "2d0b6f0aca45d10216fe1892a08f040da39ba26f",
       "sourceSha256": "68da27909cfa2e63b2d27c31b20b4c0391a08d7df78b5335b6aeb515d7fbb47e",
       "files": {
         "bin/extract.ts": "f0b7cf0b92b40f41cb0aea02473f568a75611d6d6eb4a4261f42ff6288bec1fd",
