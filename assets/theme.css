@@ -1,0 +1,88 @@
+:root {
+  color-scheme: light;
+  --paper: #f8f7f3;
+  --ink: #202321;
+  --muted: #697166;
+  --line: #e4e7df;
+  --accent: #35694d;
+  --accent-hover: #29583e;
+  --on-accent: #fff;
+  --surface: #fff;
+  --surface-soft: #fcfcfa;
+  --surface-hover: #edf3e9;
+  --surface-active: #dfead9;
+  --border-strong: #becbb8;
+  --accent-soft: #edf3e9;
+  --accent-border: #9db195;
+  --focus-ring: #35694d26;
+  --danger: #a04437;
+  --placeholder: #6e7866;
+  --selection: #dce8d7;
+  --selection-ink: #202321;
+  --shadow: #172b1d26;
+  --backdrop: #202b2259;
+  /* Font colors are user data; keep their specimen paper consistent. */
+  --specimen-paper: #fff;
+  --specimen-ink: #202321;
+  --specimen-line: #eff1ec;
+  --specimen-hover: #f8faf5;
+  --specimen-selected: #edf4eb;
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #151a17;
+  --ink: #edf1e9;
+  --muted: #abb5a7;
+  --line: #343e35;
+  --accent: #a8cdb1;
+  --accent-hover: #bee0c4;
+  --on-accent: #142319;
+  --surface: #1d251f;
+  --surface-soft: #19201b;
+  --surface-hover: #27362b;
+  --surface-active: #334a39;
+  --border-strong: #53654f;
+  --accent-soft: #293e2f;
+  --accent-border: #648867;
+  --focus-ring: #a8cdb12e;
+  --danger: #f2a596;
+  --placeholder: #95a08f;
+  --selection: #3b5543;
+  --selection-ink: #f2f7ef;
+  --shadow: #00000052;
+  --backdrop: #050b08a3;
+}
+/* Follow the system even before JavaScript loads, or when it is disabled. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    color-scheme: dark;
+    --paper: #151a17;
+    --ink: #edf1e9;
+    --muted: #abb5a7;
+    --line: #343e35;
+    --accent: #a8cdb1;
+    --accent-hover: #bee0c4;
+    --on-accent: #142319;
+    --surface: #1d251f;
+    --surface-soft: #19201b;
+    --surface-hover: #27362b;
+    --surface-active: #334a39;
+    --border-strong: #53654f;
+    --accent-soft: #293e2f;
+    --accent-border: #648867;
+    --focus-ring: #a8cdb12e;
+    --danger: #f2a596;
+    --placeholder: #95a08f;
+    --selection: #3b5543;
+    --selection-ink: #f2f7ef;
+    --shadow: #00000052;
+    --backdrop: #050b08a3;
+  }
+}
+::selection { background: var(--selection); color: var(--selection-ink); }
+.theme-control { display: inline-flex; align-items: center; flex-shrink: 0; gap: 7px; color: var(--muted); }
+.theme-control svg { flex-shrink: 0; }
+.theme-control select { width: auto; min-height: 36px; padding: 7px 8px; border: 1px solid var(--line); border-radius: 8px; color: var(--ink); background: var(--surface); font-size: 12px; line-height: 1.4; }
+.theme-control select:hover { border-color: var(--border-strong); }
+.theme-control select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; box-shadow: none; }
+@media (max-width: 720px) { .theme-control select { min-height: 40px; } }

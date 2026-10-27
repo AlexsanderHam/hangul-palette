@@ -51,6 +51,8 @@ Each weight retains the official font's 14,716 original glyphs and 14,336 mapped
 
 The [playground](https://alexsanderham.github.io/hangul-palette/) lets you edit text, compare nine weights and choose colors with pickers or HEX values. You can adjust all twenty Hangul slots and the ordinary text color for Latin letters, digits and punctuation. The [glyph browser](https://alexsanderham.github.io/hangul-palette/glyphs) covers all 11,223 colored characters, with search, component filters and enlarged weight comparisons.
 
+Both pages follow your system's light or dark appearance by default. Use the theme selector in the header to choose **System**, **Light** or **Dark**; your choice is shared across pages and saved in your browser. Font specimens keep a light background so their selected colors, including black, stay visible. The site theme does not change palette colors or downloaded files.
+
 **Font + CSS** downloads a ZIP with all nine fonts, a stylesheet containing your selected colors and weight, a preview, and license notices. Apply the generated class with that stylesheet:
 
 ```html
@@ -80,19 +82,20 @@ The website needs no build step, external libraries or CDNs. Use a browser that 
 | `fonts/` | Nine WOFF2 fonts |
 | `css/hangul-palette.css` | Font declarations, palettes and slot descriptions |
 | `index.html`, `glyphs.html` | Palette playground and glyph browser |
-| `assets/` | Website styles and JavaScript |
+| `assets/` | Website styles, theme controls, icons and JavaScript |
 | `metadata/manifest.json` | Version, file hashes, palette slots and build provenance |
 | `metadata/validation.json` | Font structure, outline and junction validation results |
-| `scripts/verify.mjs` | Distribution and website checks |
+| `scripts/` | Distribution, website and theme checks |
 
 Paths in the manifest are relative to the repository root.
 
 ## Repository checks
 
-From the repository root, verify font hashes, weights, website paths and JavaScript syntax with Node.js 24.x (24.22.1 or newer):
+From the repository root, verify font hashes, weights, website paths, JavaScript syntax and theme behavior with Node.js 24.x (24.22.1 or newer):
 
 ```sh
 node scripts/verify.mjs
+node --test scripts/theme.test.mjs
 ```
 
 This checks the repository's original distribution files. Website downloads contain customized CSS and do not include the repository verification tools or manifest.

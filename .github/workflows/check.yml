@@ -17,6 +17,7 @@ jobs:
         with:
           node-version: '24.22.1'
       - run: node scripts/verify.mjs
+      - run: node --test scripts/theme.test.mjs
       - name: Prepare site
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         run: |

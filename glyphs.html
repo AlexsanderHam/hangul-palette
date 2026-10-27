@@ -6,9 +6,12 @@
   <title>Hangul Palette — 전체 글자</title>
   <meta name="description" content="Hangul Palette의 한글 11,223자를 아홉 가지 굵기와 다양한 팔레트로 살펴보세요.">
   <meta name="theme-color" content="#f8f7f3">
+  <meta name="color-scheme" content="light dark">
+  <script src="assets/theme.js"></script>
   <link rel="icon" href="assets/favicon.ico" sizes="16x16 32x32 48x48 64x64">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" sizes="any">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" sizes="180x180">
+  <link rel="stylesheet" href="assets/theme.css">
   <link rel="stylesheet" href="css/hangul-palette.css">
   <link rel="stylesheet" href="assets/glyphs.css">
 </head>
@@ -22,6 +25,7 @@
         <a href="glyphs" aria-current="page">전체 글자</a>
         <a href="./#usage">다운로드</a>
         <a class="github-link" href="https://github.com/AlexsanderHam/hangul-palette">GitHub <span aria-hidden="true">↗</span></a>
+        <label class="theme-control"><svg width="16" height="16" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 3a7 7 0 0 0 0 14Z" fill="currentColor"/></svg><select id="theme" name="theme" aria-label="화면 테마" disabled><option value="system">시스템</option><option value="light">라이트</option><option value="dark">다크</option></select></label>
       </div>
     </nav>
   </header>
