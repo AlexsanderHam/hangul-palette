@@ -34,7 +34,6 @@ function page({ dark = false, saved = null, blocked = false } = {}) {
     return {
       getItem: (name) => values.get(name) ?? null,
       setItem: (name, value) => values.set(name, value),
-      removeItem: (name) => values.delete(name),
     };
   } });
   runInNewContext(source, { window, document });

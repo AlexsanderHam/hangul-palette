@@ -25,12 +25,10 @@
         <a href="glyphs">전체 글자</a>
         <a href="#usage">다운로드</a>
         <a class="github-link" href="https://github.com/AlexsanderHam/hangul-palette">GitHub <span aria-hidden="true">↗</span></a>
-        <div class="theme-control">
-          <button id="theme-toggle" class="theme-toggle" type="button" aria-label="다크 모드로 전환" title="다크 모드로 전환" disabled>
-            <svg class="theme-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
-            <svg class="theme-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 13.5A8.5 8.5 0 0 1 10.5 3.5A8.5 8.5 0 1 0 20.5 13.5Z"/></svg>
-          </button>
-        </div>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="다크 모드로 전환" title="다크 모드로 전환" disabled>
+          <svg class="theme-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+          <svg class="theme-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 13.5A8.5 8.5 0 0 1 10.5 3.5A8.5 8.5 0 1 0 20.5 13.5Z"/></svg>
+        </button>
       </nav>
     </header>
 
@@ -44,14 +42,14 @@
         <div class="hero-note"><span class="color-mark" aria-hidden="true"><i></i><i></i><i></i></span><p>하나의 폰트.<br>아홉 가지 굵기.<br>스무 개의 색.</p></div>
       </section>
 
-      <section id="playground" class="playground" aria-labelledby="playground-title">
+      <section id="playground" aria-labelledby="playground-title">
         <div class="section-heading"><div><p class="eyebrow">01 / PLAYGROUND</p><h2 id="playground-title">글자의 표정을 바꿔보세요.</h2></div><a class="text-link" href="glyphs">11,223자 모두 보기 <span aria-hidden="true">↗</span></a></div>
         <div class="workbench">
           <div class="preview-panel">
             <div class="preview-toolbar"><span>LIVE PREVIEW</span><span id="font-state" role="status">폰트 불러오는 중…</span></div>
             <div class="specimen-stage"><p id="specimen" class="hangul-palette custom-palette">한글, 색을 입다.</p><p class="latin-sample custom-palette">Hangul Palette 0123456789 !?&amp;</p></div>
             <div class="preview-controls">
-              <label class="weight-control" for="weight">굵기<select id="weight"><option value="100">Thin · 100</option><option value="200">ExtraLight · 200</option><option value="300">Light · 300</option><option value="400" selected>Regular · 400</option><option value="500">Medium · 500</option><option value="600">SemiBold · 600</option><option value="700">Bold · 700</option><option value="800">ExtraBold · 800</option><option value="900">Black · 900</option></select></label>
+              <label for="weight">굵기<select id="weight"><option value="100">Thin · 100</option><option value="200">ExtraLight · 200</option><option value="300">Light · 300</option><option value="400" selected>Regular · 400</option><option value="500">Medium · 500</option><option value="600">SemiBold · 600</option><option value="700">Bold · 700</option><option value="800">ExtraBold · 800</option><option value="900">Black · 900</option></select></label>
               <label class="size-control" for="size">크기<input id="size" type="range" min="28" max="120" step="1" value="72"><output id="size-value" for="size">72 px</output></label>
             </div>
             <div class="text-editor"><label for="text">직접 써보기</label><textarea id="text" maxlength="500" rows="2" spellcheck="false">한글, 색을 입다.</textarea><div class="editor-foot"><div class="sample-buttons" aria-label="예시 문장"><button type="button" data-sample="한글, 색을 입다." aria-pressed="true">문장 넣기</button><button type="button" data-sample="가 과 값 밖 몋 휺" aria-pressed="false">표본 글자 넣기</button><button type="button" data-sample="ㄱ ㄲ ㄳ ㄴ ㄵ ㅏ ㅘ ㅙ ㅢ" aria-pressed="false">자모 넣기</button></div><span id="text-count">10 / 500</span></div></div>

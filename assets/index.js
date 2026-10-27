@@ -235,7 +235,6 @@ byId("download-fonts").addEventListener("click", async () => {
     saveFile(`hangul-palette-${manifest.version}.zip`, createZip([...fonts, ["css/hangul-palette.css", css], ["LICENSE", license], ["NOTICE", notice], ["preview.html", preview], ["README.txt", readme]]));
     downloadState("다운로드를 시작했습니다. 현재 색상이 CSS에 포함되어 있습니다.");
   } catch {
-    active = false;
     downloadState("파일을 준비하지 못했습니다. 연결을 확인한 뒤 다시 눌러주세요.", true);
   } finally {
     active = false;
@@ -277,7 +276,7 @@ for (const button of document.querySelectorAll("[data-sample]")) button.addEvent
   text.value = button.dataset.sample;
   updateText();
 });
-weight.addEventListener("change", () => { loadWeight(); if (manifest) updatePalette(); });
+weight.addEventListener("change", () => { loadWeight(); applyTextColor(); });
 byId("size").addEventListener("input", (event) => {
   const value = event.target.value;
   document.documentElement.style.setProperty("--preview-size", `${value}px`);
@@ -292,7 +291,6 @@ preset.addEventListener("change", selectPreset);
 byId("reset-colors").addEventListener("click", () => {
   preset.value = "spectrum";
   automaticTextColor = true;
-  byId("text-color-hex").removeAttribute("aria-invalid");
   byId("palette-state").textContent = colorHint;
   selectPreset();
 });

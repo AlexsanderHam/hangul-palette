@@ -97,7 +97,6 @@ function spacer(height) {
 function characterRow(char, index) {
   const row = document.createElement("tr");
   row.className = "glyph-row" + (char === detailChar ? " selected" : "");
-  row.dataset.char = char;
   row.setAttribute("aria-rowindex", String(index + 2));
   const label = document.createElement("th");
   label.scope = "row";
@@ -319,7 +318,7 @@ async function loadFonts() {
   const state = byId("font-state");
   const retry = byId("font-retry");
   state.textContent = "아홉 가지 굵기를 불러오는 중…";
-  state.classList.remove("failed", "ready");
+  state.classList.remove("failed");
   retry.hidden = true;
   retry.disabled = true;
   const results = await Promise.allSettled(weights.map(([value]) => document.fonts.load(`${value} 36px "Hangul Palette"`, "가ㄱ")));
@@ -327,7 +326,7 @@ async function loadFonts() {
   state.textContent = failed.length
     ? `폰트를 불러오지 못했어요: ${failed.join(", ")}`
     : paletteSupported ? "9개 굵기 모두 준비됨" : "9개 굵기 준비됨 · 이 브라우저에서는 검정으로 표시됩니다.";
-  state.classList.add(failed.length ? "failed" : "ready");
+  state.classList.toggle("failed", failed.length > 0);
   retry.hidden = failed.length === 0;
   retry.disabled = false;
 }
