@@ -51,7 +51,9 @@ Each weight retains the official font's 14,716 original glyphs and 14,336 mapped
 
 The [playground](https://alexsanderham.github.io/hangul-palette/) lets you edit text, compare nine weights and choose colors with pickers or HEX values. You can adjust all twenty Hangul slots and the ordinary text color for Latin letters, digits and punctuation. The [glyph browser](https://alexsanderham.github.io/hangul-palette/glyphs) covers all 11,223 colored characters, with search, component filters and enlarged weight comparisons.
 
-Both pages follow your system's light or dark appearance by default. Use the theme selector in the header to choose **System**, **Light** or **Dark**; your choice is shared across pages and saved in your browser. Font specimens keep a light background so their selected colors, including black, stay visible. The site theme does not change palette colors or downloaded files.
+Both pages follow your system's light or dark appearance by default. The sun/moon button in the header switches between light and dark; your choice is shared across pages and saved in your browser. Theme changes animate gently unless reduced motion is preferred. Font specimens follow the site theme, with a light background only for black palettes. Changing the theme does not alter Hangul palette colors.
+
+Latin letters, digits and punctuation use an automatic foreground color by default. Choosing a color or HEX value keeps that color fixed; **Reset colors** restores the automatic foreground. Downloads use `color: inherit` in automatic mode, or your selected color in manual mode.
 
 **Font + CSS** downloads a ZIP with all nine fonts, a stylesheet containing your selected colors and weight, a preview, and license notices. Apply the generated class with that stylesheet:
 

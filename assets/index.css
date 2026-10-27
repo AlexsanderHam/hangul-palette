@@ -1,4 +1,4 @@
-:root { --preview-size:72px; --plain-color:#202321; }
+:root { --preview-size:72px; --plain-color:var(--specimen-ink); }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; scroll-padding-top:28px; }
 body { margin:0; color:var(--ink); background:var(--paper); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; font-size:14px; line-height:1.6; -webkit-font-smoothing:antialiased; }

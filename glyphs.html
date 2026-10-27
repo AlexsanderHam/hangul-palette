@@ -25,7 +25,12 @@
         <a href="glyphs" aria-current="page">전체 글자</a>
         <a href="./#usage">다운로드</a>
         <a class="github-link" href="https://github.com/AlexsanderHam/hangul-palette">GitHub <span aria-hidden="true">↗</span></a>
-        <label class="theme-control"><svg width="16" height="16" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 3a7 7 0 0 0 0 14Z" fill="currentColor"/></svg><select id="theme" name="theme" aria-label="화면 테마" disabled><option value="system">시스템</option><option value="light">라이트</option><option value="dark">다크</option></select></label>
+        <div class="theme-control">
+          <button id="theme-toggle" class="theme-toggle" type="button" aria-label="다크 모드로 전환" title="다크 모드로 전환" disabled>
+            <svg class="theme-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+            <svg class="theme-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 13.5A8.5 8.5 0 0 1 10.5 3.5A8.5 8.5 0 1 0 20.5 13.5Z"/></svg>
+          </button>
+        </div>
       </div>
     </nav>
   </header>
@@ -85,7 +90,7 @@
   <dialog id="glyph-detail" aria-labelledby="detail-title" aria-describedby="detail-description">
     <div class="detail-header"><div><p class="eyebrow">아홉 가지 굵기</p><h2 id="detail-title">글자 확대</h2><p id="detail-description"></p></div><button id="close-detail" type="button" aria-label="확대 창 닫기" autofocus>닫기 <span aria-hidden="true">×</span></button></div>
     <div id="detail-weights" class="detail-weights"></div>
-    <div class="detail-footer"><label><input id="detail-mono" type="checkbox">검정으로 보기</label><div><button id="previous-glyph" type="button">← 이전 글자</button><button id="next-glyph" type="button">다음 글자 →</button></div></div>
+    <div class="detail-footer"><div><button id="previous-glyph" type="button">← 이전 글자</button><button id="next-glyph" type="button">다음 글자 →</button></div></div>
   </dialog>
   <script type="module" src="assets/glyphs.js"></script>
 </body>

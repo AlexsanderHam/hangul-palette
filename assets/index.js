@@ -6,7 +6,8 @@ const specimen = byId("specimen");
 const text = byId("text");
 const weight = byId("weight");
 const preset = byId("preset");
-const colorHint = CSS.supports("font-palette", "--user-palette")
+const paletteSupported = CSS.supports("font-palette", "--user-palette");
+const colorHint = paletteSupported
   ? "색상은 CSS에 적용됩니다. 폰트 기본색은 검정입니다."
   : "이 브라우저는 영역별 색상 미리보기를 지원하지 않습니다. 색상 설정과 CSS 다운로드는 사용할 수 있습니다.";
 const colorFields = new Map();
@@ -16,6 +17,7 @@ document.head.append(paletteStyle);
 let manifest;
 let colors = [];
 let fontRequest = 0;
+let automaticTextColor = true;
 
 async function readFile(path) {
   if (!cachedFiles.has(path)) {
@@ -42,21 +44,35 @@ ${colors.map((color, index) => `    ${index} ${color}`).join(",\n")};
 .hangul-palette--custom {
   font-palette: --my-hangul;
   font-weight: ${weight.value};
-  color: ${byId("text-color").value};
+  color: ${automaticTextColor ? "inherit" : byId("text-color").value};
 }
 `;
+}
+
+function syncTextColor() {
+  if (!automaticTextColor) return;
+  const color = getComputedStyle(document.documentElement).getPropertyValue("--specimen-ink").trim();
+  byId("text-color").value = byId("text-color-hex").value = color;
+  byId("text-color-hex").removeAttribute("aria-invalid");
+}
+
+function applyTextColor() {
+  document.documentElement.style.setProperty("--plain-color", automaticTextColor ? "var(--specimen-ink)" : byId("text-color").value);
+  syncTextColor();
+  if (manifest) byId("css-output").textContent = paletteCss();
 }
 
 function updatePalette() {
   const declarations = colors.map((color, index) => `${index} ${color}`).join(",");
   paletteStyle.textContent = `@font-palette-values --user-palette { font-family:"Hangul Palette"; base-palette:0; override-colors:${declarations}; } .custom-palette { font-palette:--user-palette; }`;
-  document.documentElement.style.setProperty("--plain-color", byId("text-color").value);
+  const black = !paletteSupported || colors.every((color) => color === "#000000");
+  document.documentElement.dataset.preview = black ? "black" : "color";
   byId("palette-strip").replaceChildren(...colors.map((color) => {
     const swatch = document.createElement("i");
     swatch.style.setProperty("--swatch", color);
     return swatch;
   }));
-  byId("css-output").textContent = paletteCss();
+  applyTextColor();
 }
 
 function bindColorInputs(picker, hex, onChange) {
@@ -267,16 +283,22 @@ byId("size").addEventListener("input", (event) => {
   document.documentElement.style.setProperty("--preview-size", `${value}px`);
   byId("size-value").textContent = `${value} px`;
 });
-bindColorInputs(byId("text-color"), byId("text-color-hex"), () => { if (manifest) updatePalette(); });
+bindColorInputs(byId("text-color"), byId("text-color-hex"), () => {
+  automaticTextColor = false;
+  applyTextColor();
+});
+new MutationObserver(syncTextColor).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
 preset.addEventListener("change", selectPreset);
 byId("reset-colors").addEventListener("click", () => {
   preset.value = "spectrum";
-  byId("text-color").value = byId("text-color-hex").value = "#202321";
+  automaticTextColor = true;
   byId("text-color-hex").removeAttribute("aria-invalid");
   byId("palette-state").textContent = colorHint;
   selectPreset();
 });
 
+document.documentElement.dataset.preview = paletteSupported ? "color" : "black";
+applyTextColor();
 updateText();
 loadWeight();
 try {

@@ -21,12 +21,11 @@
   --selection-ink: #202321;
   --shadow: #172b1d26;
   --backdrop: #202b2259;
-  /* Font colors are user data; keep their specimen paper consistent. */
-  --specimen-paper: #fff;
-  --specimen-ink: #202321;
-  --specimen-line: #eff1ec;
-  --specimen-hover: #f8faf5;
-  --specimen-selected: #edf4eb;
+  --specimen-paper: var(--surface);
+  --specimen-ink: var(--ink);
+  --specimen-line: var(--line);
+  --specimen-hover: var(--surface-hover);
+  --specimen-selected: var(--surface-active);
 }
 :root[data-theme="dark"] {
   color-scheme: dark;
@@ -79,10 +78,29 @@
     --backdrop: #050b08a3;
   }
 }
+/* Literal black palettes need light paper, independently of the site theme. */
+:root[data-preview="black"] {
+  --specimen-paper: #fff;
+  --specimen-ink: #202321;
+  --specimen-line: #eff1ec;
+  --specimen-hover: #f8faf5;
+  --specimen-selected: #edf4eb;
+}
 ::selection { background: var(--selection); color: var(--selection-ink); }
-.theme-control { display: inline-flex; align-items: center; flex-shrink: 0; gap: 7px; color: var(--muted); }
-.theme-control svg { flex-shrink: 0; }
-.theme-control select { width: auto; min-height: 36px; padding: 7px 8px; border: 1px solid var(--line); border-radius: 8px; color: var(--ink); background: var(--surface); font-size: 12px; line-height: 1.4; }
-.theme-control select:hover { border-color: var(--border-strong); }
-.theme-control select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; box-shadow: none; }
-@media (max-width: 720px) { .theme-control select { min-height: 40px; } }
+.theme-control { display: inline-flex; align-items: center; flex-shrink: 0; }
+.theme-control button { display: inline-grid; place-items: center; cursor: pointer; line-height: 1; }
+.theme-toggle { position: relative; width: 38px; height: 38px; padding: 0; border: 1px solid var(--line); border-radius: 50%; color: var(--accent); background: var(--surface); }
+.theme-toggle:hover { background: var(--accent-soft); border-color: var(--accent-border); }
+.theme-toggle svg { position: absolute; inset: 0; margin: auto; }
+.theme-toggle .theme-moon { opacity: 0; transform: rotate(-30deg) scale(.7); }
+:root[data-theme="dark"] .theme-sun { opacity: 0; transform: rotate(30deg) scale(.7); }
+:root[data-theme="dark"] .theme-moon { opacity: 1; transform: none; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .theme-sun { opacity: 0; transform: rotate(30deg) scale(.7); }
+  :root:not([data-theme]) .theme-moon { opacity: 1; transform: none; }
+}
+@media (max-width: 720px) { .theme-toggle { width: 40px; height: 40px; } }
+@media (prefers-reduced-motion: no-preference) {
+  body, body * { transition: background-color .2s ease, color .2s ease, border-color .2s ease, box-shadow .2s ease; }
+  .theme-toggle svg { transition: opacity .2s ease, transform .2s ease; }
+}

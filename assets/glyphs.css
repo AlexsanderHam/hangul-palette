@@ -111,10 +111,7 @@ dialog::backdrop { background: var(--backdrop); backdrop-filter: blur(3px); }
 .detail-weight h3 { margin: 0; padding: 13px 2px 0; color: var(--specimen-ink); font-size: 10px; font-weight: 500; opacity: .65; }
 .detail-weight h3 span { display: block; margin-top: 4px; font-size: 10px; font-variant-numeric: tabular-nums; }
 .detail-weight .font-glyph { margin: 16px 0 18px; font-size: 88px; line-height: 1.35; }
-dialog.mono .font-glyph { font-palette: normal; }
-.detail-footer { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 18px; }
-.detail-footer label { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 12px; }
-.detail-footer input { width: 15px; height: 15px; margin: 0; accent-color: var(--accent); }
+.detail-footer { display: flex; justify-content: flex-end; align-items: center; flex-wrap: wrap; gap: 18px; }
 .detail-footer > div { display: flex; gap: 8px; }
 .skip-link { position: fixed; top: -100px; left: 20px; z-index: 10; padding: 12px 16px; border: 1px solid var(--accent); border-radius: 10px; background: var(--surface); font-size: 13px; }
 .skip-link:focus { top: 12px; }
@@ -182,7 +179,4 @@ dialog.mono .font-glyph { font-palette: normal; }
   .brand { font-size: 16px; }
   .navigation-links a { font-size: 11px; }
   .result-divider { padding: 0 2px; }
-}
-@media (prefers-reduced-motion: no-preference) {
-  a, button, select, input[type="search"] { transition: color .15s, background-color .15s, border-color .15s; }
 }

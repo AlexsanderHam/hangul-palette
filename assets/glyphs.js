@@ -22,6 +22,7 @@ const initial = byId("initial");
 const medial = byId("medial");
 const final = byId("final");
 const size = byId("size");
+const palette = byId("palette");
 const dialog = byId("glyph-detail");
 const number = new Intl.NumberFormat("ko-KR");
 const headerHeight = 52;
@@ -234,6 +235,11 @@ function openDetail(index) {
   dialog.showModal();
 }
 
+function applyPalette() {
+  document.documentElement.style.setProperty("--gallery-palette", palette.value);
+  document.documentElement.dataset.preview = palette.value === "normal" ? "black" : "color";
+}
+
 search.addEventListener("input", (event) => {
   clearTimeout(searchTimer);
   if (event.isComposing) return;
@@ -253,9 +259,7 @@ for (const element of [initial, medial, final]) element.addEventListener("change
 });
 byId("reset").addEventListener("click", resetFilters);
 byId("empty-reset").addEventListener("click", resetFilters);
-byId("palette").addEventListener("change", (event) => {
-  document.documentElement.style.setProperty("--gallery-palette", event.target.value);
-});
+palette.addEventListener("change", applyPalette);
 size.addEventListener("input", changeSize);
 viewport.addEventListener("scroll", scheduleRows, { passive: true });
 viewport.addEventListener("keydown", (event) => {
@@ -291,7 +295,6 @@ rows.addEventListener("click", (event) => {
 byId("close-detail").addEventListener("click", () => dialog.close());
 byId("previous-glyph").addEventListener("click", () => stepDetail(-1));
 byId("next-glyph").addEventListener("click", () => stepDetail(1));
-byId("detail-mono").addEventListener("change", (event) => dialog.classList.toggle("mono", event.target.checked));
 dialog.addEventListener("keydown", (event) => {
   if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
     event.preventDefault();
@@ -304,13 +307,13 @@ dialog.addEventListener("close", () => {
   focusCharacter(index);
 });
 
-applyFilters();
 const paletteSupported = CSS.supports("font-palette", "--hangul-palette");
 if (!paletteSupported) {
-  byId("palette").value = "normal";
-  byId("palette").disabled = true;
-  document.documentElement.style.setProperty("--gallery-palette", "normal");
+  palette.value = "normal";
+  palette.disabled = true;
 }
+applyPalette();
+applyFilters();
 
 async function loadFonts() {
   const state = byId("font-state");
